@@ -9,14 +9,13 @@ class ReposInfoExtractor:
         self.repos_list = repos_list
         self.programmers_info = dict()
 
-    def __extract_repo_info(self, path_to_repo: str) -> None:
+    def _extract_repo_info(self, path_to_repo: str) -> None:
         commits_count = 0
+
         for commit in Repository(path_to_repo).traverse_commits():
             commits_count += 1
-        commits = tqdm(Repository(path_to_repo).traverse_commits(), total=commits_count)
-
-        for commit in commits:
-            commits.set_description(f'Extracting from {path_to_repo}')
+        for commit in tqdm(Repository(path_to_repo).traverse_commits(),
+                           total=commits_count, desc=f'Extracting from {path_to_repo}'):
             author_id = commit.author.email
 
             if author_id not in self.programmers_info:
@@ -25,9 +24,9 @@ class ReposInfoExtractor:
             self.programmers_info[author_id][commits_field_name] = {}
 
             for file in commit.modified_files:
-                self.__add_file_info(author_id, commits_field_name, file)
+                self._add_file_info(author_id, commits_field_name, file)
 
-    def __add_file_info(self, author_id: str, commits_field_name: str, file: ModifiedFile) -> None:
+    def _add_file_info(self, author_id: str, commits_field_name: str, file: ModifiedFile) -> None:
         if file.filename not in self.programmers_info[author_id][commits_field_name]:
             self.programmers_info[author_id][commits_field_name][file.filename] = {"added": 0, "deleted": 0}
         self.programmers_info[author_id][commits_field_name][file.filename]["added"] += file.added_lines
@@ -37,6 +36,6 @@ class ReposInfoExtractor:
         if len(self.programmers_info) != 0:
             return self.programmers_info
         for repo in self.repos_list:
-            self.__extract_repo_info(repo)
+            self._extract_repo_info(repo)
 
         return self.programmers_info

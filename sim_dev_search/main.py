@@ -10,8 +10,9 @@ def run():
 
     info_extractor = ReposInfoExtractor(repos_list)
     programmers_info = info_extractor.get_programmers_commits_info()
+    path_to_result = 'results/programmers_commits.json'
 
-    with open('programmers_commits.json', 'w') as fp:
+    with open(path_to_result, 'w') as fp:
         json.dump(programmers_info, fp, indent=4, sort_keys=True)
 
 
