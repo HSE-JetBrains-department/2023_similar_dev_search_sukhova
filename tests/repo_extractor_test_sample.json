@@ -1,0 +1,65 @@
+{
+    "62846387+Alex5041@users.noreply.github.com": {
+        "Alexey Kononov_commits": {
+            "main.py": {
+                "added": 36,
+                "deleted": 23
+            }
+        }
+    },
+    "egorbu@gmail.com": {
+        "Egor_commits": {}
+    },
+    "kononal@gmail.com": {
+        "Alex5041_commits": {
+            "lint.yml": {
+                "added": 3,
+                "deleted": 1
+            }
+        }
+    },
+    "lint-action@samuelmeuli.com": {
+        "Lint Action_commits": {
+            "dev_stats.py": {
+                "added": 59,
+                "deleted": 33
+            },
+            "extract.py": {
+                "added": 46,
+                "deleted": 31
+            },
+            "make_stats.py": {
+                "added": 6,
+                "deleted": 4
+            },
+            "parsefile.py": {
+                "added": 46,
+                "deleted": 20
+            },
+            "script.py": {
+                "added": 112,
+                "deleted": 47
+            },
+            "search.py": {
+                "added": 28,
+                "deleted": 16
+            },
+            "setup.py": {
+                "added": 8,
+                "deleted": 3
+            },
+            "stargazers.py": {
+                "added": 12,
+                "deleted": 8
+            },
+            "test.py": {
+                "added": 17,
+                "deleted": 4
+            },
+            "utils.py": {
+                "added": 8,
+                "deleted": 4
+            }
+        }
+    }
+}

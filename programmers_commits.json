@@ -1,0 +1,923 @@
+{
+    "0xflotus@gmail.com": {
+        "0xflotus_commits": {
+            "loading.rst": {
+                "added": 1,
+                "deleted": 1
+            }
+        }
+    },
+    "12f23eddde@gmail.com": {
+        "12f23eddde_commits": {
+            "git.py": {
+                "added": 6,
+                "deleted": 2
+            },
+            "repository.py": {
+                "added": 8,
+                "deleted": 1
+            },
+            "test_repository_mining.py": {
+                "added": 9,
+                "deleted": 0
+            }
+        }
+    },
+    "1908+rubyisbeautiful@users.noreply.github.com": {
+        "bryan_commits": {
+            "diffs.rst": {
+                "added": 10,
+                "deleted": 6
+            }
+        }
+    },
+    "32632523+NullConvergence@users.noreply.github.com": {
+        "Alex_commits": {
+            "commit.py": {
+                "added": 1,
+                "deleted": 1
+            }
+        }
+    },
+    "32761621+yusufsn@users.noreply.github.com": {
+        "Yusuf Sulistyo Nugroho_commits": {
+            "README.md": {
+                "added": 13,
+                "deleted": 0
+            }
+        }
+    },
+    "50012463+gremat@users.noreply.github.com": {
+        "gremat_commits": {
+            "setup.py": {
+                "added": 1,
+                "deleted": 1
+            }
+        }
+    },
+    "52334444+mboutet@users.noreply.github.com": {
+        "Maxence Boutet_commits": {
+            "admission.rst": {
+                "added": 1,
+                "deleted": 1
+            }
+        }
+    },
+    "9467666+k----n@users.noreply.github.com": {
+        "k----n_commits": {
+            "commit.rst": {
+                "added": 1,
+                "deleted": 1
+            }
+        }
+    },
+    "Lenny@codematic.com": {
+        "Codematic71_commits": {
+            "tutorial.rst": {
+                "added": 1,
+                "deleted": 1
+            }
+        }
+    },
+    "a.serban@cs.ru.nl": {
+        "NullConvergence_commits": {
+            "test-repos.zip": {
+                "added": 0,
+                "deleted": 0
+            }
+        }
+    },
+    "an.dodet@gmail.com": {
+        "andodet_commits": {
+            "test_repository_mining.py": {
+                "added": 7,
+                "deleted": 0
+            }
+        }
+    },
+    "andrewthetechie@users.noreply.github.com": {
+        "Andrew_commits": {
+            "deployment-rbac.yaml": {
+                "added": 4,
+                "deleted": 4
+            }
+        }
+    },
+    "anthony.nash@du.co": {
+        "Anthony Nash_commits": {
+            "hierarchies.py": {
+                "added": 3,
+                "deleted": 1
+            }
+        }
+    },
+    "arie.vandeursen@tudelft.nl": {
+        "Arie van Deursen_commits": {
+            "commit.py": {
+                "added": 9,
+                "deleted": 14
+            },
+            "deltamaintainability.rst": {
+                "added": 2,
+                "deleted": 1
+            },
+            "test_dmm.py": {
+                "added": 9,
+                "deleted": 9
+            }
+        }
+    },
+    "avolkov@mirantis.com": {
+        "Andrey Volkov_commits": {
+            "discovery.py": {
+                "added": 3,
+                "deleted": 2
+            }
+        }
+    },
+    "baiju.m.mail@gmail.com": {
+        "Baiju Muthukadan_commits": {
+            "install.rst": {
+                "added": 2,
+                "deleted": 2
+            }
+        }
+    },
+    "bajal@tutu.ru": {
+        "Dmitry Bazhal_commits": {
+            "config.py": {
+                "added": 4,
+                "deleted": 1
+            }
+        }
+    },
+    "brad.fair@highperformance.tech": {
+        "Brad Fair_commits": {
+            "reconciliation.rst": {
+                "added": 1,
+                "deleted": 1
+            }
+        }
+    },
+    "cgote@ethz.ch": {
+        "Christoph Gote_commits": {
+            "git_repository.py": {
+                "added": 4,
+                "deleted": 0
+            }
+        }
+    },
+    "cj.baar@charter.com": {
+        "CJ Baar_commits": {
+            "patches.py": {
+                "added": 7,
+                "deleted": 3
+            }
+        }
+    },
+    "clement.liaw@snowflake.com": {
+        "Clement Liaw_commits": {}
+    },
+    "cliff.burdick@viasat.com": {
+        "cburdick_commits": {
+            "events.py": {
+                "added": 2,
+                "deleted": 1
+            }
+        }
+    },
+    "clive@jevons-it.net": {
+        "Clive Jevons_commits": {
+            "piggybacking.py": {
+                "added": 5,
+                "deleted": 1
+            }
+        }
+    },
+    "d_r_fish@yahoo.com": {
+        "doug-fish_commits": {
+            "deployment.rst": {
+                "added": 2,
+                "deleted": 2
+            }
+        }
+    },
+    "damc.dev@gmail.com": {
+        "David McElligott_commits": {
+            "running.py": {
+                "added": 7,
+                "deleted": 2
+            }
+        }
+    },
+    "denis.laxalde@dalibo.com": {
+        "Denis Laxalde_commits": {
+            "hierarchies.rst": {
+                "added": 1,
+                "deleted": 1
+            }
+        }
+    },
+    "dlmiddlecote@gmail.com": {
+        "Daniel Middlecote_commits": {
+            "test_requires_finalizer.py": {
+                "added": 40,
+                "deleted": 33
+            }
+        }
+    },
+    "dspadini@fb.com": {
+        "Davide Spadini_commits": {
+            "change_set.py": {
+                "added": 3,
+                "deleted": 2
+            },
+            "code_churn.py": {
+                "added": 3,
+                "deleted": 2
+            },
+            "contributors_count.py": {
+                "added": 3,
+                "deleted": 2
+            },
+            "developer.py": {
+                "added": 4,
+                "deleted": 1
+            },
+            "git.py": {
+                "added": 5,
+                "deleted": 5
+            },
+            "lines_count.py": {
+                "added": 3,
+                "deleted": 2
+            },
+            "process_metric.py": {
+                "added": 5,
+                "deleted": 4
+            },
+            "repository.py": {
+                "added": 12,
+                "deleted": 12
+            }
+        }
+    },
+    "dspadini@meta.com": {
+        "Davide Spadini_commits": {
+            "__init__.py": {
+                "added": 1,
+                "deleted": 1
+            }
+        }
+    },
+    "dtuchyna@redhat.com": {
+        "Dominik Tuchyna_commits": {
+            "processmetrics.rst": {
+                "added": 1,
+                "deleted": 1
+            }
+        }
+    },
+    "evan.casey@allstacks.com": {
+        "Evan Casey_commits": {
+            "test_commit_filters.py": {
+                "added": 41,
+                "deleted": 1
+            }
+        }
+    },
+    "federico.sismondi@camptocamp.com": {
+        "Federico Sismondi_commits": {
+            "architecture.rst": {
+                "added": 2,
+                "deleted": 2
+            }
+        }
+    },
+    "felipe.ebert@gmail.com": {
+        "Felipe Ebert_commits": {
+            "gitrepository.rst": {
+                "added": 1,
+                "deleted": 1
+            }
+        }
+    },
+    "frank.villaro@infomaniak.com": {
+        "Frank Villaro-Dixon_commits": {
+            "hierarchies.rst": {
+                "added": 2,
+                "deleted": 1
+            }
+        }
+    },
+    "gautamprajapati06@gmail.com": {
+        "Gautam Prajapati_commits": {
+            "handlers.rst": {
+                "added": 1,
+                "deleted": 1
+            }
+        }
+    },
+    "gliptak@gmail.com": {
+        "G\u00e1bor Lipt\u00e1k_commits": {
+            "README.md": {
+                "added": 1,
+                "deleted": 1
+            }
+        }
+    },
+    "grzegorz.lato@gmail.com": {
+        "Gregor Lato_commits": {
+            "code_churn.py": {
+                "added": 4,
+                "deleted": 4
+            },
+            "test_code_churn.py": {
+                "added": 2,
+                "deleted": 2
+            }
+        }
+    },
+    "ha.t@cybersierra.co": {
+        "Ha_commits": {
+            "test_repository_mining.py": {
+                "added": 2,
+                "deleted": 2
+            }
+        }
+    },
+    "hasan.r67@gmail.com": {
+        "Hasan Ramezani_commits": {
+            ".pre-commit-config.yaml": {
+                "added": 6,
+                "deleted": 0
+            },
+            "_importlinter_conditional.py": {
+                "added": 1,
+                "deleted": 1
+            },
+            "conftest.py": {
+                "added": 3,
+                "deleted": 4
+            },
+            "example.py": {
+                "added": 2,
+                "deleted": 2
+            },
+            "hostnames.py": {
+                "added": 1,
+                "deleted": 1
+            },
+            "inventory.py": {
+                "added": 1,
+                "deleted": 2
+            },
+            "piggybacking.py": {
+                "added": 3,
+                "deleted": 3
+            },
+            "test_examples.py": {
+                "added": 1,
+                "deleted": 1
+            },
+            "test_help.py": {
+                "added": 0,
+                "deleted": 2
+            },
+            "test_it.py": {
+                "added": 0,
+                "deleted": 2
+            },
+            "test_queueing.py": {
+                "added": 2,
+                "deleted": 2
+            },
+            "test_throttling.py": {
+                "added": 1,
+                "deleted": 1
+            }
+        }
+    },
+    "henning@zalando.de": {
+        "Henning Jacobs_commits": {
+            "deployment-depl.yaml": {
+                "added": 1,
+                "deleted": 1
+            }
+        }
+    },
+    "ikaboubi@gmail.com": {
+        "Ismail KABOUBI_commits": {
+            "peering.py": {
+                "added": 0,
+                "deleted": 4
+            }
+        }
+    },
+    "j.goodwin049@gmail.com": {
+        "James Goodwin_commits": {
+            "test_repository_mining.py": {
+                "added": 6,
+                "deleted": 3
+            }
+        }
+    },
+    "jake.scaltreto@bnymellon.com": {
+        "Jake Scaltreto_commits": {
+            "watching.py": {
+                "added": 1,
+                "deleted": 1
+            }
+        }
+    },
+    "jeffrey.burrell@baesystems.com": {
+        "Jeffrey Burrell_commits": {
+            "daemons.py": {
+                "added": 2,
+                "deleted": 3
+            }
+        }
+    },
+    "jkupfere@redhat.com": {
+        "Johnathan Kupferer_commits": {
+            "configuration.rst": {
+                "added": 1,
+                "deleted": 1
+            }
+        }
+    },
+    "john.carr@unrouted.co.uk": {
+        "John Carr_commits": {
+            "invocation.py": {
+                "added": 5,
+                "deleted": 1
+            },
+            "test_decorators.py": {
+                "added": 5,
+                "deleted": 5
+            },
+            "test_legacy_decorators.py": {
+                "added": 1,
+                "deleted": 1
+            }
+        }
+    },
+    "k----n@users.noreply.github.com": {
+        "k----n_commits": {
+            "modifiedfile.rst": {
+                "added": 2,
+                "deleted": 2
+            }
+        }
+    },
+    "kanghongjin@gmail.com": {
+        "Kang Hong Jin_commits": {
+            "git_repository.py": {
+                "added": 2,
+                "deleted": 9
+            },
+            "repository_mining.py": {
+                "added": 7,
+                "deleted": 5
+            },
+            "test_git_repository.py": {
+                "added": 12,
+                "deleted": 0
+            },
+            "test_repository_mining.py": {
+                "added": 21,
+                "deleted": 0
+            }
+        }
+    },
+    "kma.as707@gmail.com": {
+        "Dmitry Bazhal_commits": {}
+    },
+    "ledenelintelli@gmail.com": {
+        "Ledenel_commits": {
+            "git_repository.py": {
+                "added": 1,
+                "deleted": 1
+            }
+        }
+    },
+    "lgtm-migrator@users.noreply.github.com": {
+        "LGTM Migrator_commits": {
+            "codeql.yml": {
+                "added": 41,
+                "deleted": 0
+            }
+        }
+    },
+    "liuchao890@126.com": {
+        "butterl_commits": {
+            "commit.py": {
+                "added": 1,
+                "deleted": 1
+            }
+        }
+    },
+    "luca.pascarella@gmail.com": {
+        "Luca Pascarella_commits": {
+            "git_repository.py": {
+                "added": 0,
+                "deleted": 4
+            }
+        }
+    },
+    "mail@alexstockinger.de": {
+        "Alex Stockinger_commits": {
+            "configuration.rst": {
+                "added": 2,
+                "deleted": 2
+            }
+        }
+    },
+    "mail@sobolevn.me": {
+        "Nikita Sobolev_commits": {
+            "peering.py": {
+                "added": 1,
+                "deleted": 1
+            }
+        }
+    },
+    "mcastelluccio@mozilla.com": {
+        "Marco Castelluccio_commits": {
+            "git_repository.py": {
+                "added": 15,
+                "deleted": 36
+            },
+            "hyperblame.py": {
+                "added": 0,
+                "deleted": 282
+            },
+            "test_git_repository.py": {
+                "added": 19,
+                "deleted": 6
+            }
+        }
+    },
+    "me@alexdyas.com": {
+        "Alexander Dyas_commits": {
+            "starting.rst": {
+                "added": 3,
+                "deleted": 2
+            }
+        }
+    },
+    "me@sergeytsaplin.com": {
+        "Sergei Tsaplin_commits": {
+            "scanning.py": {
+                "added": 2,
+                "deleted": 2
+            }
+        }
+    },
+    "melchior.fracas@wanadoo.fr": {
+        "Parking52_commits": {}
+    },
+    "melchior.fracas@zalando.de": {
+        "Melchior Fracas_commits": {
+            "test_diff.py": {
+                "added": 24,
+                "deleted": 0
+            }
+        }
+    },
+    "nash.ant@gmail.com": {
+        "nashant_commits": {
+            "hierarchies.py": {
+                "added": 1,
+                "deleted": 0
+            }
+        }
+    },
+    "nicolas.kowenski@id.ethz.ch": {
+        "Nicolas Kowenski_commits": {}
+    },
+    "nolar@nolar.info": {
+        "Sergey Vasilyev_commits": {}
+    },
+    "ondrej.tethal@oracle.com": {
+        "Ondrej Tethal_commits": {
+            "commit.py": {
+                "added": 1,
+                "deleted": 1
+            }
+        }
+    },
+    "pawel.kopka22@gmail.com": {
+        "pawelkopka_commits": {
+            "example.py": {
+                "added": 1,
+                "deleted": 1
+            }
+        }
+    },
+    "per.ploug@zalando.de": {
+        "Per Ploug_commits": {
+            ".zappr.yml": {
+                "added": 1,
+                "deleted": 1
+            }
+        }
+    },
+    "per@plo.ug": {
+        "Per Ploug_commits": {
+            "LICENSE": {
+                "added": 21,
+                "deleted": 0
+            },
+            "README.md": {
+                "added": 2,
+                "deleted": 0
+            }
+        }
+    },
+    "philipp.sontag@blueyonder.com": {
+        "Philipp Sontag_commits": {
+            "api.py": {
+                "added": 1,
+                "deleted": 1
+            },
+            "test_api_requests.py": {
+                "added": 12,
+                "deleted": 0
+            },
+            "test_error_retries.py": {
+                "added": 21,
+                "deleted": 0
+            }
+        }
+    },
+    "prakashkl88@gmail.com": {
+        "Prakash_commits": {
+            "README.md": {
+                "added": 1,
+                "deleted": 1
+            }
+        }
+    },
+    "rodrigo.actavares@gmail.com": {
+        "Rodrigo Tavares_commits": {
+            "CONTRIBUTORS.md": {
+                "added": 1,
+                "deleted": 0
+            },
+            "creation.rst": {
+                "added": 0,
+                "deleted": 1
+            },
+            "deletion.rst": {
+                "added": 0,
+                "deleted": 1
+            },
+            "diffs.rst": {
+                "added": 0,
+                "deleted": 2
+            },
+            "starting.rst": {
+                "added": 0,
+                "deleted": 1
+            },
+            "updates.rst": {
+                "added": 0,
+                "deleted": 1
+            }
+        }
+    },
+    "ropf@itu.dk": {
+        "HelgeCPH_commits": {
+            "repository.py": {
+                "added": 1,
+                "deleted": 2
+            }
+        }
+    },
+    "s_tsaplin@wargaming.net": {
+        "Sergei Tsaplin_commits": {
+            "callbacks.py": {
+                "added": 221,
+                "deleted": 186
+            },
+            "ci.yaml": {
+                "added": 10,
+                "deleted": 0
+            },
+            "example.py": {
+                "added": 21,
+                "deleted": 15
+            },
+            "filters.py": {
+                "added": 5,
+                "deleted": 4
+            },
+            "handlers.py": {
+                "added": 7,
+                "deleted": 7
+            },
+            "handling.py": {
+                "added": 1,
+                "deleted": 1
+            },
+            "on.py": {
+                "added": 47,
+                "deleted": 47
+            },
+            "registries.py": {
+                "added": 18,
+                "deleted": 14
+            },
+            "thorough.yaml": {
+                "added": 10,
+                "deleted": 0
+            }
+        }
+    },
+    "sainarasimha.v@gmail.com": {
+        "Vennamaneni Sai Narasimha_commits": {
+            "errors.rst": {
+                "added": 1,
+                "deleted": 1
+            }
+        }
+    },
+    "sambhavs.email@gmail.com": {
+        "Sambhav Kothari_commits": {
+            "patches.py": {
+                "added": 11,
+                "deleted": 3
+            },
+            "test_jsonpatch.py": {
+                "added": 18,
+                "deleted": 0
+            }
+        }
+    },
+    "sergey.vasilyev@zalando.de": {
+        "Sergey Vasilyev_commits": {
+            "queueing.py": {
+                "added": 15,
+                "deleted": 4
+            }
+        }
+    },
+    "shantanu.oak@gmail.com": {
+        "Shantanu Oak_commits": {
+            "README.md": {
+                "added": 1,
+                "deleted": 1
+            }
+        }
+    },
+    "shchelokovskyy@gmail.com": {
+        "Pavlo Shchelokovskyy_commits": {
+            "config.py": {
+                "added": 3,
+                "deleted": 0
+            },
+            "watching.py": {
+                "added": 1,
+                "deleted": 1
+            }
+        }
+    },
+    "silveryfu@gmail.com": {
+        "silveryfu_commits": {
+            "conventions.py": {
+                "added": 10,
+                "deleted": 3
+            }
+        }
+    },
+    "soroosh.sarabadani@gmail.com": {
+        "Soroosh Sarabadani_commits": {},
+        "soroosh sarabadani_commits": {
+            "peering.py": {
+                "added": 38,
+                "deleted": 40
+            },
+            "queueing.py": {
+                "added": 2,
+                "deleted": 2
+            }
+        }
+    },
+    "spadini.davide@gmail.com": {
+        "Davide Spadini_commits": {},
+        "Spadini Davide_commits": {
+            ".deepsource.toml": {
+                "added": 1,
+                "deleted": 1
+            }
+        },
+        "ishepard_commits": {
+            "commit.py": {
+                "added": 2,
+                "deleted": 2
+            }
+        }
+    },
+    "stefano.dallapalma0@gmail.com": {
+        "Stefano Dalla Palma_commits": {
+            "test_git_repository.py": {
+                "added": 1,
+                "deleted": 1
+            }
+        },
+        "stefanodallapalma_commits": {
+            "commit.py": {
+                "added": 2,
+                "deleted": 2
+            }
+        }
+    },
+    "stefano.dallapalmapalma0@gmail.com": {
+        "stefanodallapalma_commits": {
+            "commit.py": {
+                "added": 0,
+                "deleted": 8
+            }
+        }
+    },
+    "stephposs@gmail.com": {
+        "Stephane Poss_commits": {
+            "commit.py": {
+                "added": 6,
+                "deleted": 1
+            }
+        }
+    },
+    "th.trummer@gmail.com": {
+        "Thomas Trummer_commits": {
+            "repository.py": {
+                "added": 1,
+                "deleted": 1
+            }
+        }
+    },
+    "tomasz.urbaszek@polidea.com": {
+        "Tomek Urbaszek_commits": {
+            "PULL_REQUEST_TEMPLATE.md": {
+                "added": 17,
+                "deleted": 45
+            }
+        }
+    },
+    "totoroq@outlook.com": {
+        "Yibo Yan_commits": {
+            "repository.py": {
+                "added": 0,
+                "deleted": 5
+            }
+        }
+    },
+    "trond@hindenes.com": {
+        "Trond Hindenes_commits": {
+            "loaders.py": {
+                "added": 1,
+                "deleted": 2
+            }
+        }
+    },
+    "wenjun.swj@alibaba-inc.com": {
+        "Wenjun Si_commits": {
+            ".gitignore": {
+                "added": 3,
+                "deleted": 0
+            },
+            "test_watching_infinitely.py": {
+                "added": 26,
+                "deleted": 1
+            },
+            "watching.py": {
+                "added": 17,
+                "deleted": 3
+            }
+        }
+    },
+    "xamrennerb@gmail.com": {
+        "Max Brenner_commits": {
+            "probing.rst": {
+                "added": 1,
+                "deleted": 1
+            }
+        }
+    },
+    "xavier.baude@gmail.com": {
+        "xavierbaude_commits": {
+            "configuration.rst": {
+                "added": 3,
+                "deleted": 2
+            }
+        }
+    },
+    "ztaylor@zacharys-mbp.attlocal.net": {
+        "Zachary Taylor_commits": {
+            "updates.rst": {
+                "added": 9,
+                "deleted": 0
+            }
+        }
+    }
+}
