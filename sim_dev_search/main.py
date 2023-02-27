@@ -2,6 +2,7 @@ from pathlib import Path
 from typing import List
 
 import click
+import io
 import json
 
 from utils.stargazers_top_extractor import StargazersTopExtractor
