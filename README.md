@@ -1,3 +1,5 @@
+![CI](https://github.com/ILilliasI/2023_similar_dev_search_sukhova/actions/workflows/main.yml/badge.svg)
+
 Проект "Поиск похожих разработчиков"
 ==========================================
 Описание        
