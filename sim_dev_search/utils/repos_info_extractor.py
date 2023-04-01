@@ -37,7 +37,7 @@ class ReposInfoExtractor:
         :param file: File from GitHub repository.
         """
         if file.filename not in self._programmers_info[author_id]:
-            self._programmers_info[author_id][file.filename] = {"added": 0, "deleted": 0}
+            self._programmers_info[author_id][file.filename] = defaultdict(int)
         self._programmers_info[author_id][file.filename]["added"] += file.added_lines
         self._programmers_info[author_id][file.filename]["deleted"] += file.deleted_lines
 

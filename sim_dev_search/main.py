@@ -1,9 +1,8 @@
 from pathlib import Path
 from typing import List
 
-import json
 import click
-import io
+import json
 
 from utils.repos_info_extractor import ReposInfoExtractor
 
@@ -18,20 +17,22 @@ from utils.repos_info_extractor import ReposInfoExtractor
 )
 @click.option(
     "-p",
-    "--file-out",
-    default=click.open_file(str(Path(__file__).absolute().parent.parent / "results" / "programmers_commits.json"), "w"),
-    type=click.File("w"),
+    "--file-path",
+    default=str(Path(__file__).absolute().parent.parent / "results" / "programmers_commits.json"),
+    type=click.Path(file_okay=True, dir_okay=False),
     help="Provide path to save result.",
 )
-def programmers_info(repos_list: List[str], file_out: io.TextIOWrapper) -> None:
+def programmers_info(repos_list: List[str], file_path: str) -> None:
     """
     Get information about developers and their commits.
-
     :param repos_list: List of paths to GitHub repositories.
-    :param file_out: File to write results.
+    :param file_path: Path to file with results.
     """
+    file_path_absolute = Path(file_path).absolute()
     info_extractor = ReposInfoExtractor(repos_list)
-    json.dump(info_extractor.programmers_info, file_out, indent=4, sort_keys=True)
+
+    with open(file_path_absolute, "w", encoding="utf-8") as file_out:
+        json.dump(info_extractor.programmers_info, file_out, indent=4, sort_keys=True)
 
 
 @click.group()
