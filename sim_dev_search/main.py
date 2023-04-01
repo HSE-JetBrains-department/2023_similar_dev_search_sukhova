@@ -60,7 +60,7 @@ def stargazers_top(repos_list: List[str], file_out: io.TextIOWrapper) -> None:
     :param file_out: File to write results.
     """
     info_extractor = StargazersTopExtractor(repos_list)
-    json.dump(info_extractor.repositories_top, file_out, indent=8, sort_keys=True)
+    json.dump(info_extractor.repositories_top, file_out, indent=4, sort_keys=True)
 
 
 @click.command("top")
