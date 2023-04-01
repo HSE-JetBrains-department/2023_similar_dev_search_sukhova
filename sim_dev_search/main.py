@@ -48,7 +48,7 @@ def stargazers_top(repos_list: List[str]) -> None:
     :param repos_list: List of paths to GitHub repositories.
     """
     info_extractor = StargazersTopExtractor(repos_list)
-    path_to_result = Path(__file__).parent.parent / "results" / "repositories_top.json"
+    path_to_result = Path(__file__).absolute().parent.parent / "results" / "repositories_top.json"
 
     with open(path_to_result, "w") as fp:
         json.dump(info_extractor.repositories_top, fp, indent=8, sort_keys=True)
