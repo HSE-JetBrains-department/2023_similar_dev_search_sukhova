@@ -1,12 +1,16 @@
 from collections import defaultdict
 from pathlib import Path
-from typing import List, Dict
+from typing import List
 
 import requests
 
 
 class StargazersTopExtractor:
-    MAX_PAGES_COUNT = 10 ** 10
+    """
+    Class that extracts information about repositories stargazers.
+    """
+
+    MAX_PAGES_COUNT = 10**10
     REPOSITORIES_TOP_SIZE = 100
 
     def __init__(self, repos_list: List[str]):
@@ -29,7 +33,7 @@ class StargazersTopExtractor:
         url += "/stargazers?page={}&per_page=100"
 
         for pages_count in range(1, self.MAX_PAGES_COUNT + 1):
-            response = requests.get(url.format(pages_count)).json()
+            response = requests.get(url.format(pages_count), timeout=10).json()
 
             if (len(response) == 0) or isinstance(response, dict):
                 break
@@ -44,7 +48,7 @@ class StargazersTopExtractor:
 
         for stargazer in self._stargazers:
             for pages_count in range(1, self.MAX_PAGES_COUNT + 1):
-                response = requests.get(url.format(stargazer, pages_count)).json()
+                response = requests.get(url.format(stargazer, pages_count), timeout=10).json()
 
                 if (len(response) == 0) or isinstance(response, dict):
                     break
@@ -58,15 +62,14 @@ class StargazersTopExtractor:
         Top 100 GitHub repos in popularity among stargazers.
         :return: list of repositories.
         """
-        if (len(self._repositories_top) != 0) and \
-           (len(self._repositories_top) <= self.REPOSITORIES_TOP_SIZE):
+        if (len(self._repositories_top) != 0) and (len(self._repositories_top) <= self.REPOSITORIES_TOP_SIZE):
             return self._repositories_top
         for repo in self.repos_list:
             self._get_stargazers(repo)
         self._extract_starred_repos_info()
 
-        self._repositories_top = list(map(
-            lambda r: r[0], sorted(self._starred_repos.items(), key=lambda it: it[1], reverse=True)
-        ))[:self.REPOSITORIES_TOP_SIZE]
+        self._repositories_top = list(
+            map(lambda r: r[0], sorted(self._starred_repos.items(), key=lambda it: it[1], reverse=True))
+        )[: self.REPOSITORIES_TOP_SIZE]
 
         return self._repositories_top

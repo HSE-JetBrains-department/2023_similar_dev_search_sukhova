@@ -6,6 +6,10 @@ from tqdm import tqdm
 
 
 class ReposInfoExtractor:
+    """
+    Class that extracts information about repos programmers from commits.
+    """
+
     def __init__(self, repos_list: List[str]):
         """
         GitHub's repositories info extractor initialization.
