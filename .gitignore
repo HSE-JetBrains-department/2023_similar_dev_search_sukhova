@@ -120,6 +120,8 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+pyproject.toml
+poetry.lock
 .env
 .venv
 env/
