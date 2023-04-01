@@ -1,6 +1,7 @@
-from collections import defaultdict
-from pathlib import Path
-from typing import List
+from collections import Counter
+from time import sleep
+from typing import Any, Dict, List, Optional, Set, Union
+from urllib.parse import urlparse
 
 import requests
 
@@ -10,66 +11,107 @@ class StargazersTopExtractor:
     Class that extracts information about repositories stargazers.
     """
 
-    MAX_PAGES_COUNT = 10**10
-    REPOSITORIES_TOP_SIZE = 100
-
-    def __init__(self, repos_list: List[str]):
+    def __init__(
+            self,
+            repos_list: List[str],
+            api_token: Optional[str] = None,
+            repositories_top_size: int = 100,
+            max_pages_count: int = 10**10
+    ):
         """
-        GitHub's repositories stargazers top 100 repos extractor initialization.
+        GitHub's repositories stargazers top repos extractor initialization.
         :param repos_list: List of paths to GitHub repositories.
+        :param api_token: API access token.
+        :param repositories_top_size: Size of repositories top list.
+        :param max_pages_count: Maximum pages number to process.
         """
-        self.repos_list = repos_list
-        self._stargazers = set()
-        self._starred_repos = defaultdict(int)
-        self._repositories_top = list()
+        self._repos_list = repos_list
+        self._repositories_top_size = repositories_top_size
+        self._max_pages_count = max_pages_count
+        self._repositories_top = {}
+        self._request_headers = {}
 
-    def _get_stargazers(self, path_to_repo: str) -> None:
+        if api_token:
+            self._request_headers = {"Authorization": f"token {api_token}"}
+
+    @staticmethod
+    def _get_json_response(url: str, headers: Dict[str, str]) -> Union[Dict[str, str], List[Dict[str, Any]]]:
+        """
+        Get json response from URL.
+        :param url: URL.
+        :return: Json response.
+        """
+        response: Optional[Union[Dict[str, str], List[Dict[str, Any]]]] = None
+
+        while response is None:
+            try:
+                response = requests.get(
+                    url,
+                    headers=headers,
+                    timeout=10,
+                ).json()
+            except requests.exceptions.Timeout:
+                sleep_time = 5
+                print(f"Connection refused by the server, waiting for {sleep_time} seconds...")
+                sleep(sleep_time)
+        return response
+
+    def _get_stargazers(self, repo_url: str) -> Set[str]:
         """
         Get given repository stargazers.
-        :param path_to_repo: Path to GitHub repository.
+        :param repo_url: Path to GitHub repository.
+        :return: Set of repository stargazers.
         """
-        path_to_repo = Path(path_to_repo)
-        url = f"https://api.github.com/repos/{path_to_repo.parts[-2]}/{path_to_repo.parts[-1]}"
-        url += "/stargazers?page={}&per_page=100"
+        stargazers = set()
+        parsed_repo_url = urlparse(repo_url)
+        url_template = parsed_repo_url._replace(netloc="api.github.com", path="/repos" + parsed_repo_url.path).geturl()
+        url_template += "/stargazers?page={}&per_page=100"
 
-        for pages_count in range(1, self.MAX_PAGES_COUNT + 1):
-            response = requests.get(url.format(pages_count), timeout=10).json()
-
+        for page in range(1, self._max_pages_count + 1):
+            response = self._get_json_response(
+                url_template.format(page),
+                headers=self._request_headers,
+            )
             if (len(response) == 0) or isinstance(response, dict):
                 break
-            self._stargazers.update(list(map(lambda user: user["login"], response)))
+            stargazers.update(list(map(lambda user: user["login"], response)))
+        return stargazers
 
-    def _extract_starred_repos_info(self) -> None:
+    def _extract_starred_repos_info(self, stargazers: Set[str]) -> Counter:
         """
         Extract starred repositories info from stargazers.
+        :param stargazers: Set of repositories stargazers.
+        :return: Counter of repositories stars from stargazers.
         """
-        url = "https://api.github.com/users/{}/starred?page={}&per_page=100"
+        url_template = "https://api.github.com/users/{}/starred?page={}&per_page=100"
+        starred_repos = Counter()
         repo_url_feature = "html_url"
 
-        for stargazer in self._stargazers:
-            for pages_count in range(1, self.MAX_PAGES_COUNT + 1):
-                response = requests.get(url.format(stargazer, pages_count), timeout=10).json()
-
+        for stargazer in stargazers:
+            for page in range(1, self._max_pages_count + 1):
+                response = self._get_json_response(
+                    url_template.format(stargazer, page),
+                    self._request_headers,
+                )
                 if (len(response) == 0) or isinstance(response, dict):
                     break
-
                 for repo in response:
-                    self._starred_repos[repo[repo_url_feature]] += 1
+                    starred_repos[repo[repo_url_feature]] += 1
+        return starred_repos
 
     @property
-    def repositories_top(self) -> List[str]:
+    def repositories_top(self) -> Dict[str, int]:
         """
-        Top 100 GitHub repos in popularity among stargazers.
-        :return: list of repositories.
+        Top GitHub repos in popularity among stargazers.
+        :return: Top of repositories.
         """
-        if (len(self._repositories_top) != 0) and (len(self._repositories_top) <= self.REPOSITORIES_TOP_SIZE):
+        if self._repositories_top and len(self._repositories_top) <= self._repositories_top_size:
             return self._repositories_top
-        for repo in self.repos_list:
-            self._get_stargazers(repo)
-        self._extract_starred_repos_info()
+        stargazers = set()
 
-        self._repositories_top = list(
-            map(lambda r: r[0], sorted(self._starred_repos.items(), key=lambda it: it[1], reverse=True))
-        )[: self.REPOSITORIES_TOP_SIZE]
+        for repo in self._repos_list:
+            stargazers |= self._get_stargazers(repo)
+        starred_repos = self._extract_starred_repos_info(stargazers)
+        self._repositories_top = dict(starred_repos.most_common(self._repositories_top_size))
 
         return self._repositories_top
