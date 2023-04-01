@@ -28,10 +28,10 @@ def programmers_info(repos_list: List[str], file_out: io.TextIOWrapper) -> None:
     Get information about developers and their commits.
 
     :param repos_list: List of paths to GitHub repositories.
-    :param file_out: file to write results.
+    :param file_out: File to write results.
     """
     info_extractor = ReposInfoExtractor(repos_list)
-    json.dump(info_extractor.programmers_info, file_out, indent=8, sort_keys=True)
+    json.dump(info_extractor.programmers_info, file_out, indent=4, sort_keys=True)
 
 
 @click.group()
