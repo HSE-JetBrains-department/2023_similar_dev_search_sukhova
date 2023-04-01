@@ -53,12 +53,6 @@ def stargazers_top(repos_list: List[str]) -> None:
         json.dump(info_extractor.repositories_top, fp, indent=8, sort_keys=True)
 
 
-@click.group()
-def cli():
-    """
-    Similar developers search line tool.
-    """
-
 @click.command("top")
 @click.option("-r", "--repos_list", multiple=True, default=["https://github.com/pytorch/pytorch"],
               help="Provide paths to Github repositories.")
