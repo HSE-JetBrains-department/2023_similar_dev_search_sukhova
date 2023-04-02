@@ -23,8 +23,11 @@ class ReposInfoExtractor:
 
         for _ in Repository(path_to_repo).traverse_commits():
             commits_count += 1
-        for commit in tqdm(Repository(path_to_repo).traverse_commits(),
-                           total=commits_count, desc=f"Extracting from {path_to_repo}"):
+        for commit in tqdm(
+                Repository(path_to_repo).traverse_commits(),
+                total=commits_count,
+                desc=f"Extracting from {path_to_repo}"
+        ):
             author_id = commit.author.email
 
             for file in commit.modified_files:
