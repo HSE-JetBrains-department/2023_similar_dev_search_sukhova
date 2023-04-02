@@ -87,7 +87,7 @@ class StargazersTopExtractor:
         starred_repos = Counter()
         repo_url_feature = "html_url"
 
-        for stargazer in stargazers:
+        for stargazer in list(stargazers)[:10]:
             for page in range(1, self._max_pages_count + 1):
                 response = self._get_json_response(
                     url_template.format(stargazer, page),
