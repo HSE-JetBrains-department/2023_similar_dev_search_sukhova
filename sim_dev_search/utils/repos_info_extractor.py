@@ -1,7 +1,7 @@
 from collections import defaultdict
-from typing import List, Dict
+from typing import Dict, List
 
-from pydriller import Repository, ModifiedFile
+from pydriller import ModifiedFile, Repository
 from tqdm import tqdm
 
 
@@ -24,9 +24,7 @@ class ReposInfoExtractor:
         for _ in Repository(path_to_repo).traverse_commits():
             commits_count += 1
         for commit in tqdm(
-                Repository(path_to_repo).traverse_commits(),
-                total=commits_count,
-                desc=f"Extracting from {path_to_repo}"
+            Repository(path_to_repo).traverse_commits(), total=commits_count, desc=f"Extracting from {path_to_repo}"
         ):
             author_id = commit.author.email
 

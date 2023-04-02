@@ -4,8 +4,9 @@ from pathlib import Path
 from typing import List
 from unittest import mock
 
-from pydriller import Repository, ModifiedFile
+from pydriller import ModifiedFile, Repository
 from pydriller.domain.commit import Commit
+
 from sim_dev_search.utils.repos_info_extractor import ReposInfoExtractor
 
 
@@ -44,18 +45,16 @@ class RepoExtractorTestCase(unittest.TestCase):
         extractor = ReposInfoExtractor(["test-repo"])
         programmers_info = extractor.programmers_info
 
-        self.assertEquals(len(programmers_info), self.DEVELOPERS_NUMBER)
+        self.assertEqual(len(programmers_info), self.DEVELOPERS_NUMBER)
         added_lines_cnt = sum(
             dev_info[filename]["added"] for dev_info in programmers_info.values() for filename in dev_info.keys()
         )
-        self.assertEquals(added_lines_cnt, self.DEVELOPERS_ADDED_LINES)
+        self.assertEqual(added_lines_cnt, self.DEVELOPERS_ADDED_LINES)
         added_lines_cnt = sum(
             dev_info[filename]["deleted"] for dev_info in programmers_info.values() for filename in dev_info.keys()
         )
-        self.assertEquals(added_lines_cnt, self.DEVELOPERS_DELETED_LINES)
+        self.assertEqual(added_lines_cnt, self.DEVELOPERS_DELETED_LINES)
         modified_files_cnt = len(
-            set(
-                filename for dev_info in programmers_info.values() for filename in dev_info.keys()
-            )
+            set(filename for dev_info in programmers_info.values() for filename in dev_info.keys())
         )
-        self.assertEquals(modified_files_cnt, self.FILES_MODIFIED_NUMBER)
+        self.assertEqual(modified_files_cnt, self.FILES_MODIFIED_NUMBER)
