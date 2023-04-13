@@ -1,9 +1,10 @@
 from pathlib import Path
-from typing import List
+from typing import List, Optional
 
 import click
 import json
 
+from utils.stargazers_top_extractor import StargazersTopExtractor
 from utils.repos_info_extractor import ReposInfoExtractor
 
 
@@ -35,6 +36,41 @@ def programmers_info(repos_list: List[str], file_path: str) -> None:
         json.dump(info_extractor.programmers_info, file_out, indent=4, sort_keys=True)
 
 
+@click.command("top")
+@click.option(
+    "-r",
+    "--repos_list",
+    multiple=True,
+    default=["https://github.com/pytorch/pytorch"],
+    help="Provide paths to Github repositories.",
+)
+@click.option(
+    "-f",
+    "--file-path",
+    default=str(Path(__file__).absolute().parent.parent / "results" / "repositories_top.json"),
+    type=click.Path(file_okay=True, dir_okay=False),
+    help="Provide path to save result.",
+)
+@click.option(
+    "-a",
+    "--api-token",
+    default=None,
+    help="Github API access token.",
+)
+def stargazers_top(repos_list: List[str], file_path: str, api_token: Optional[str]) -> None:
+    """
+    Get top 100 GitHub repos in popularity among stargazers.
+    :param repos_list: List of paths to GitHub repositories.
+    :param file_path: Path to file with results.
+    :param api_token: API access token.
+    """
+    file_path_absolute = Path(file_path).absolute()
+    info_extractor = StargazersTopExtractor(repos_list, api_token)
+
+    with open(file_path_absolute, "w", encoding="utf-8") as file_out:
+        json.dump(info_extractor.repositories_top, file_out, indent=4)
+
+
 @click.group()
 def cli():
     """
@@ -44,4 +80,5 @@ def cli():
 
 if __name__ == "__main__":
     cli.add_command(programmers_info)
+    cli.add_command(stargazers_top)
     cli()

@@ -6,6 +6,10 @@ from tqdm import tqdm
 
 
 class ReposInfoExtractor:
+    """
+    Class that extracts information about repos programmers from commits.
+    """
+
     def __init__(self, repos_list: List[str]):
         """
         GitHub's repositories info extractor initialization.
@@ -46,7 +50,7 @@ class ReposInfoExtractor:
     def programmers_info(self) -> Dict[str, dict]:
         """
         Information about developers and their commits from given repositories.
-        :return: dictionary of developers and their commits.
+        :return: Dictionary of developers and their commits.
         """
         if len(self._programmers_info) != 0:
             return self._programmers_info
