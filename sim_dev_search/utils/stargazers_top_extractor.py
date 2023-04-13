@@ -59,7 +59,7 @@ class StargazersTopExtractor:
     def _get_stargazers(self, repo_url: str) -> Set[str]:
         """
         Get given repository stargazers.
-        :param repo_url: Path to GitHub repository.
+        :param repo_url: URL to GitHub repository.
         :return: Set of repository stargazers.
         """
         stargazers = set()
@@ -74,10 +74,10 @@ class StargazersTopExtractor:
             )
             if (len(response) == 0) or isinstance(response, dict):
                 break
-            stargazers.update(list(map(lambda user: user["login"], response)))
+            stargazers.update(map(lambda user: user["login"], response))
         return stargazers
 
-    def _extract_starred_repos_info(self, stargazers: Set[str]) -> Counter:
+    def _extract_starred_repos_info(self, stargazers: Set[str], *, early_stop: int = 0) -> Counter:
         """
         Extract starred repositories info from stargazers.
         :param stargazers: Set of repositories stargazers.
@@ -87,7 +87,9 @@ class StargazersTopExtractor:
         starred_repos = Counter()
         repo_url_feature = "html_url"
 
-        for stargazer in list(stargazers)[:10]:
+        for stargazer_idx, stargazer in enumerate(stargazers):
+            if early_stop and stargazer_idx >= early_stop:
+                break
             for page in range(1, self._max_pages_count + 1):
                 response = self._get_json_response(
                     url_template.format(stargazer, page),

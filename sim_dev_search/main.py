@@ -45,14 +45,14 @@ def programmers_info(repos_list: List[str], file_path: str) -> None:
     help="Provide paths to Github repositories.",
 )
 @click.option(
-    "-p",
+    "-f",
     "--file-path",
     default=str(Path(__file__).absolute().parent.parent / "results" / "repositories_top.json"),
     type=click.Path(file_okay=True, dir_okay=False),
     help="Provide path to save result.",
 )
 @click.option(
-    "-t",
+    "-a",
     "--api-token",
     default=None,
     help="Github API access token.",
