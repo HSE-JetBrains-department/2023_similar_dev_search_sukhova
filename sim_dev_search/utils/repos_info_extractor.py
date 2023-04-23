@@ -1,8 +1,10 @@
-from collections import defaultdict
+from collections import defaultdict, Counter
 from typing import Dict, List
 
 from pydriller import ModifiedFile, Repository
 from tqdm import tqdm
+
+from .language_extractor import LanguageExtractor
 
 
 class ReposInfoExtractor:
@@ -10,13 +12,16 @@ class ReposInfoExtractor:
     Class that extracts information about repos programmers from commits.
     """
 
+    LANGUAGE_FIELD = "languages"
+    FILES_FIELD = "changed_files"
+
     def __init__(self, repos_list: List[str]):
         """
         GitHub's repositories info extractor initialization.
         :param repos_list: List of paths to GitHub repositories.
         """
         self.repos_list = repos_list
-        self._programmers_info = defaultdict(dict)
+        self._programmers_info = defaultdict(lambda: defaultdict(dict))
 
     def _extract_repo_info(self, path_to_repo: str) -> None:
         """
@@ -41,10 +46,13 @@ class ReposInfoExtractor:
         :param author_id: Unique name of GitHub developer.
         :param file: File from GitHub repository.
         """
-        if file.filename not in self._programmers_info[author_id]:
-            self._programmers_info[author_id][file.filename] = defaultdict(int)
-        self._programmers_info[author_id][file.filename]["added"] += file.added_lines
-        self._programmers_info[author_id][file.filename]["deleted"] += file.deleted_lines
+        if file.filename not in self._programmers_info[author_id][self.FILES_FIELD]:
+            self._programmers_info[author_id][self.FILES_FIELD][file.filename] = defaultdict(int)
+        self._programmers_info[author_id][self.FILES_FIELD][file.filename]["added"] += file.added_lines
+        self._programmers_info[author_id][self.FILES_FIELD][file.filename]["deleted"] += file.deleted_lines
+        if file.content:
+            file_language = LanguageExtractor.extract_language(file.filename, file_content=file.content)
+            self._programmers_info[author_id].setdefault(self.LANGUAGE_FIELD, Counter())[file_language] += 1
 
     @property
     def programmers_info(self) -> Dict[str, dict]:
