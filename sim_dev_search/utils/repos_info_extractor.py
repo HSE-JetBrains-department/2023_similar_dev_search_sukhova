@@ -1,6 +1,5 @@
 from collections import defaultdict, Counter
 from typing import Dict, List
-from urllib.parse import urlparse
 
 from pydriller import ModifiedFile, Repository
 from tqdm import tqdm
