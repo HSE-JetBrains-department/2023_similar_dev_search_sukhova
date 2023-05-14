@@ -4,7 +4,7 @@ from typing import Dict, List
 from pydriller import ModifiedFile, Repository
 from tqdm import tqdm
 
-from .language_extractor import LanguageExtractor
+from .language_utils import extract_language
 
 
 class ReposInfoExtractor:
@@ -51,7 +51,7 @@ class ReposInfoExtractor:
         self._programmers_info[author_id][self.FILES_FIELD][file.filename]["added"] += file.added_lines
         self._programmers_info[author_id][self.FILES_FIELD][file.filename]["deleted"] += file.deleted_lines
         if file.content:
-            file_language = LanguageExtractor.extract_language(file.filename, file_content=file.content)
+            file_language = extract_language(file.filename, file_content=file.content)
             self._programmers_info[author_id].setdefault(self.LANGUAGE_FIELD, Counter())[file_language] += 1
 
     @property
