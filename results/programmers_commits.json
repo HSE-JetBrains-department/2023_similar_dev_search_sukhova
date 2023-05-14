@@ -1,1524 +1,1598 @@
 {
     "12f23eddde@gmail.com": {
-        "changed_files": {
-            "git.py": {
-                "added": 6,
-                "deleted": 2
+        "https://github.com/ishepard/pydriller": {
+            "changed_files": {
+                "git.py": {
+                    "added": 6,
+                    "deleted": 2
+                },
+                "repository.py": {
+                    "added": 8,
+                    "deleted": 1
+                },
+                "test_repository_mining.py": {
+                    "added": 9,
+                    "deleted": 0
+                }
             },
-            "repository.py": {
-                "added": 8,
-                "deleted": 1
-            },
-            "test_repository_mining.py": {
-                "added": 9,
-                "deleted": 0
+            "languages": {
+                "Python": 3
             }
-        },
-        "languages": {
-            "Python": 3
         }
     },
     "32632523+NullConvergence@users.noreply.github.com": {
-        "changed_files": {
-            "commit.py": {
-                "added": 4,
-                "deleted": 4
+        "https://github.com/ishepard/pydriller": {
+            "changed_files": {
+                "commit.py": {
+                    "added": 4,
+                    "deleted": 4
+                }
+            },
+            "languages": {
+                "Python": 3
             }
-        },
-        "languages": {
-            "Python": 3
         }
     },
     "32761621+yusufsn@users.noreply.github.com": {
-        "changed_files": {
-            "README.md": {
-                "added": 13,
-                "deleted": 0
+        "https://github.com/ishepard/pydriller": {
+            "changed_files": {
+                "README.md": {
+                    "added": 13,
+                    "deleted": 0
+                }
+            },
+            "languages": {
+                "Markdown": 1
             }
-        },
-        "languages": {
-            "Markdown": 1
         }
     },
     "50012463+gremat@users.noreply.github.com": {
-        "changed_files": {
-            "setup.py": {
-                "added": 1,
-                "deleted": 1
+        "https://github.com/ishepard/pydriller": {
+            "changed_files": {
+                "setup.py": {
+                    "added": 1,
+                    "deleted": 1
+                }
+            },
+            "languages": {
+                "Python": 1
             }
-        },
-        "languages": {
-            "Python": 1
         }
     },
     "9467666+k----n@users.noreply.github.com": {
-        "changed_files": {
-            "commit.rst": {
-                "added": 1,
-                "deleted": 1
+        "https://github.com/ishepard/pydriller": {
+            "changed_files": {
+                "commit.rst": {
+                    "added": 1,
+                    "deleted": 1
+                }
+            },
+            "languages": {
+                "reStructuredText": 1
             }
-        },
-        "languages": {
-            "reStructuredText": 1
         }
     },
     "Lenny@codematic.com": {
-        "changed_files": {
-            "tutorial.rst": {
-                "added": 1,
-                "deleted": 1
+        "https://github.com/ishepard/pydriller": {
+            "changed_files": {
+                "tutorial.rst": {
+                    "added": 1,
+                    "deleted": 1
+                }
+            },
+            "languages": {
+                "reStructuredText": 1
             }
-        },
-        "languages": {
-            "reStructuredText": 1
         }
     },
     "a.serban@cs.ru.nl": {
-        "changed_files": {
-            "commit.py": {
-                "added": 170,
-                "deleted": 78
+        "https://github.com/ishepard/pydriller": {
+            "changed_files": {
+                "commit.py": {
+                    "added": 170,
+                    "deleted": 78
+                },
+                "test-repos.zip": {
+                    "added": 0,
+                    "deleted": 0
+                },
+                "test_commit.py": {
+                    "added": 104,
+                    "deleted": 21
+                }
             },
-            "test-repos.zip": {
-                "added": 0,
-                "deleted": 0
-            },
-            "test_commit.py": {
-                "added": 104,
-                "deleted": 21
+            "languages": {
+                "Python": 16,
+                "binary": 1
             }
-        },
-        "languages": {
-            "Python": 16,
-            "binary": 1
         }
     },
     "an.dodet@gmail.com": {
-        "changed_files": {
-            "repository.py": {
-                "added": 6,
-                "deleted": 1
+        "https://github.com/ishepard/pydriller": {
+            "changed_files": {
+                "repository.py": {
+                    "added": 6,
+                    "deleted": 1
+                },
+                "test_repository_mining.py": {
+                    "added": 7,
+                    "deleted": 0
+                }
             },
-            "test_repository_mining.py": {
-                "added": 7,
-                "deleted": 0
+            "languages": {
+                "Python": 2
             }
-        },
-        "languages": {
-            "Python": 2
         }
     },
     "arie.vandeursen@tudelft.nl": {
-        "changed_files": {
-            "commit.py": {
-                "added": 322,
-                "deleted": 112
+        "https://github.com/ishepard/pydriller": {
+            "changed_files": {
+                "commit.py": {
+                    "added": 322,
+                    "deleted": 112
+                },
+                "deltamaintainability.rst": {
+                    "added": 117,
+                    "deleted": 13
+                },
+                "git_repository.py": {
+                    "added": 3,
+                    "deleted": 3
+                },
+                "index.rst": {
+                    "added": 1,
+                    "deleted": 0
+                },
+                "intro.rst": {
+                    "added": 2,
+                    "deleted": 1
+                },
+                "pytest.ini": {
+                    "added": 1,
+                    "deleted": 0
+                },
+                "repository_mining.py": {
+                    "added": 20,
+                    "deleted": 15
+                },
+                "test-repos.zip": {
+                    "added": 0,
+                    "deleted": 0
+                },
+                "test_change_set.py": {
+                    "added": 4,
+                    "deleted": 4
+                },
+                "test_code_churn.py": {
+                    "added": 4,
+                    "deleted": 4
+                },
+                "test_commits_count.py": {
+                    "added": 4,
+                    "deleted": 4
+                },
+                "test_contributors_count.py": {
+                    "added": 4,
+                    "deleted": 4
+                },
+                "test_contributors_experience_count.py": {
+                    "added": 4,
+                    "deleted": 4
+                },
+                "test_dmm.py": {
+                    "added": 179,
+                    "deleted": 16
+                },
+                "test_history_complexity_count.py": {
+                    "added": 4,
+                    "deleted": 4
+                },
+                "test_hunks_count.py": {
+                    "added": 4,
+                    "deleted": 4
+                },
+                "test_lines_added.py": {
+                    "added": 4,
+                    "deleted": 4
+                },
+                "test_lines_count.py": {
+                    "added": 4,
+                    "deleted": 4
+                },
+                "test_lines_removed.py": {
+                    "added": 4,
+                    "deleted": 4
+                },
+                "test_minor_contributors_count.py": {
+                    "added": 4,
+                    "deleted": 4
+                }
             },
-            "deltamaintainability.rst": {
-                "added": 117,
-                "deleted": 13
-            },
-            "git_repository.py": {
-                "added": 3,
-                "deleted": 3
-            },
-            "index.rst": {
-                "added": 1,
-                "deleted": 0
-            },
-            "intro.rst": {
-                "added": 2,
-                "deleted": 1
-            },
-            "pytest.ini": {
-                "added": 1,
-                "deleted": 0
-            },
-            "repository_mining.py": {
-                "added": 20,
-                "deleted": 15
-            },
-            "test-repos.zip": {
-                "added": 0,
-                "deleted": 0
-            },
-            "test_change_set.py": {
-                "added": 4,
-                "deleted": 4
-            },
-            "test_code_churn.py": {
-                "added": 4,
-                "deleted": 4
-            },
-            "test_commits_count.py": {
-                "added": 4,
-                "deleted": 4
-            },
-            "test_contributors_count.py": {
-                "added": 4,
-                "deleted": 4
-            },
-            "test_contributors_experience_count.py": {
-                "added": 4,
-                "deleted": 4
-            },
-            "test_dmm.py": {
-                "added": 179,
-                "deleted": 16
-            },
-            "test_history_complexity_count.py": {
-                "added": 4,
-                "deleted": 4
-            },
-            "test_hunks_count.py": {
-                "added": 4,
-                "deleted": 4
-            },
-            "test_lines_added.py": {
-                "added": 4,
-                "deleted": 4
-            },
-            "test_lines_count.py": {
-                "added": 4,
-                "deleted": 4
-            },
-            "test_lines_removed.py": {
-                "added": 4,
-                "deleted": 4
-            },
-            "test_minor_contributors_count.py": {
-                "added": 4,
-                "deleted": 4
+            "languages": {
+                "INI": 1,
+                "Python": 27,
+                "binary": 1,
+                "reStructuredText": 6
             }
-        },
-        "languages": {
-            "INI": 1,
-            "Python": 27,
-            "binary": 1,
-            "reStructuredText": 6
         }
     },
     "cgote@ethz.ch": {
-        "changed_files": {
-            "git_repository.py": {
-                "added": 4,
-                "deleted": 0
+        "https://github.com/ishepard/pydriller": {
+            "changed_files": {
+                "git_repository.py": {
+                    "added": 4,
+                    "deleted": 0
+                },
+                "test-repos.zip": {
+                    "added": 0,
+                    "deleted": 0
+                },
+                "test_diff.py": {
+                    "added": 19,
+                    "deleted": 0
+                }
             },
-            "test-repos.zip": {
-                "added": 0,
-                "deleted": 0
-            },
-            "test_diff.py": {
-                "added": 19,
-                "deleted": 0
+            "languages": {
+                "Python": 2,
+                "binary": 1
             }
-        },
-        "languages": {
-            "Python": 2,
-            "binary": 1
         }
     },
     "christian.gut@usp.br": {
-        "changed_files": {
-            "conf.py": {
-                "added": 11,
-                "deleted": 3
+        "https://github.com/ishepard/pydriller": {
+            "changed_files": {
+                "conf.py": {
+                    "added": 11,
+                    "deleted": 3
+                },
+                "repository.py": {
+                    "added": 3,
+                    "deleted": 1
+                },
+                "test-repos.zip": {
+                    "added": 0,
+                    "deleted": 0
+                },
+                "test_commit_filters.py": {
+                    "added": 12,
+                    "deleted": 0
+                }
             },
-            "repository.py": {
-                "added": 3,
-                "deleted": 1
-            },
-            "test-repos.zip": {
-                "added": 0,
-                "deleted": 0
-            },
-            "test_commit_filters.py": {
-                "added": 12,
-                "deleted": 0
+            "languages": {
+                "Python": 3,
+                "binary": 2
             }
-        },
-        "languages": {
-            "Python": 3,
-            "binary": 2
         }
     },
     "dspadini@fb.com": {
-        "changed_files": {
-            ".readthedocs.yml": {
-                "added": 2,
-                "deleted": 2
+        "https://github.com/ishepard/pydriller": {
+            "changed_files": {
+                ".readthedocs.yml": {
+                    "added": 2,
+                    "deleted": 2
+                },
+                "__init__.py": {
+                    "added": 2,
+                    "deleted": 2
+                },
+                "change_set.py": {
+                    "added": 4,
+                    "deleted": 3
+                },
+                "code_churn.py": {
+                    "added": 8,
+                    "deleted": 7
+                },
+                "commit.py": {
+                    "added": 34,
+                    "deleted": 53
+                },
+                "commit.rst": {
+                    "added": 1,
+                    "deleted": 1
+                },
+                "commits_count.py": {
+                    "added": 1,
+                    "deleted": 1
+                },
+                "conf.py": {
+                    "added": 8,
+                    "deleted": 8
+                },
+                "contributors_count.py": {
+                    "added": 7,
+                    "deleted": 6
+                },
+                "contributors_experience.py": {
+                    "added": 2,
+                    "deleted": 2
+                },
+                "developer.py": {
+                    "added": 5,
+                    "deleted": 2
+                },
+                "git.py": {
+                    "added": 18,
+                    "deleted": 16
+                },
+                "history_complexity.py": {
+                    "added": 2,
+                    "deleted": 2
+                },
+                "hunks_count.py": {
+                    "added": 1,
+                    "deleted": 1
+                },
+                "index.rst": {
+                    "added": 1,
+                    "deleted": 1
+                },
+                "lines_count.py": {
+                    "added": 15,
+                    "deleted": 14
+                },
+                "modifiedfile.rst": {
+                    "added": 2,
+                    "deleted": 2
+                },
+                "process_metric.py": {
+                    "added": 5,
+                    "deleted": 4
+                },
+                "repository.py": {
+                    "added": 31,
+                    "deleted": 31
+                },
+                "repository.rst": {
+                    "added": 5,
+                    "deleted": 4
+                },
+                "requirements.txt": {
+                    "added": 1,
+                    "deleted": 0
+                },
+                "setup.py": {
+                    "added": 1,
+                    "deleted": 1
+                },
+                "test_commit.py": {
+                    "added": 32,
+                    "deleted": 43
+                },
+                "test_commit_filters.py": {
+                    "added": 3,
+                    "deleted": 4
+                },
+                "test_diff.py": {
+                    "added": 6,
+                    "deleted": 6
+                },
+                "test_dmm.py": {
+                    "added": 4,
+                    "deleted": 4
+                },
+                "test_git_repository.py": {
+                    "added": 32,
+                    "deleted": 33
+                },
+                "test_hashable.py": {
+                    "added": 2,
+                    "deleted": 5
+                },
+                "test_memory_consumption.py": {
+                    "added": 1,
+                    "deleted": 1
+                },
+                "test_repository_mining.py": {
+                    "added": 12,
+                    "deleted": 12
+                }
             },
-            "__init__.py": {
-                "added": 2,
-                "deleted": 2
-            },
-            "change_set.py": {
-                "added": 4,
-                "deleted": 3
-            },
-            "code_churn.py": {
-                "added": 8,
-                "deleted": 7
-            },
-            "commit.py": {
-                "added": 34,
-                "deleted": 53
-            },
-            "commit.rst": {
-                "added": 1,
-                "deleted": 1
-            },
-            "commits_count.py": {
-                "added": 1,
-                "deleted": 1
-            },
-            "conf.py": {
-                "added": 8,
-                "deleted": 8
-            },
-            "contributors_count.py": {
-                "added": 7,
-                "deleted": 6
-            },
-            "contributors_experience.py": {
-                "added": 2,
-                "deleted": 2
-            },
-            "developer.py": {
-                "added": 5,
-                "deleted": 2
-            },
-            "git.py": {
-                "added": 18,
-                "deleted": 16
-            },
-            "history_complexity.py": {
-                "added": 2,
-                "deleted": 2
-            },
-            "hunks_count.py": {
-                "added": 1,
-                "deleted": 1
-            },
-            "index.rst": {
-                "added": 1,
-                "deleted": 1
-            },
-            "lines_count.py": {
-                "added": 15,
-                "deleted": 14
-            },
-            "modifiedfile.rst": {
-                "added": 2,
-                "deleted": 2
-            },
-            "process_metric.py": {
-                "added": 5,
-                "deleted": 4
-            },
-            "repository.py": {
-                "added": 31,
-                "deleted": 31
-            },
-            "repository.rst": {
-                "added": 5,
-                "deleted": 4
-            },
-            "requirements.txt": {
-                "added": 1,
-                "deleted": 0
-            },
-            "setup.py": {
-                "added": 1,
-                "deleted": 1
-            },
-            "test_commit.py": {
-                "added": 32,
-                "deleted": 43
-            },
-            "test_commit_filters.py": {
-                "added": 3,
-                "deleted": 4
-            },
-            "test_diff.py": {
-                "added": 6,
-                "deleted": 6
-            },
-            "test_dmm.py": {
-                "added": 4,
-                "deleted": 4
-            },
-            "test_git_repository.py": {
-                "added": 32,
-                "deleted": 33
-            },
-            "test_hashable.py": {
-                "added": 2,
-                "deleted": 5
-            },
-            "test_memory_consumption.py": {
-                "added": 1,
-                "deleted": 1
-            },
-            "test_repository_mining.py": {
-                "added": 12,
-                "deleted": 12
+            "languages": {
+                "Python": 55,
+                "Text": 1,
+                "YAML": 2,
+                "reStructuredText": 4
             }
-        },
-        "languages": {
-            "Python": 55,
-            "Text": 1,
-            "YAML": 2,
-            "reStructuredText": 4
         }
     },
     "dspadini@meta.com": {
-        "changed_files": {
-            "__init__.py": {
-                "added": 2,
-                "deleted": 2
+        "https://github.com/ishepard/pydriller": {
+            "changed_files": {
+                "__init__.py": {
+                    "added": 2,
+                    "deleted": 2
+                },
+                "commit.py": {
+                    "added": 148,
+                    "deleted": 185
+                },
+                "conf.py": {
+                    "added": 22,
+                    "deleted": 19
+                },
+                "continuous-integration-workflow.yml": {
+                    "added": 2,
+                    "deleted": 2
+                },
+                "developer.py": {
+                    "added": 1,
+                    "deleted": 1
+                },
+                "git.py": {
+                    "added": 7,
+                    "deleted": 3
+                },
+                "publish.yml": {
+                    "added": 48,
+                    "deleted": 3
+                },
+                "repository.py": {
+                    "added": 18,
+                    "deleted": 34
+                },
+                "requirements.txt": {
+                    "added": 1,
+                    "deleted": 1
+                },
+                "test-requirements.txt": {
+                    "added": 2,
+                    "deleted": 0
+                },
+                "test_commit.py": {
+                    "added": 145,
+                    "deleted": 103
+                },
+                "test_commit_filters.py": {
+                    "added": 1,
+                    "deleted": 1
+                },
+                "test_diff.py": {
+                    "added": 4,
+                    "deleted": 0
+                },
+                "test_git.py": {
+                    "added": 5,
+                    "deleted": 6
+                },
+                "test_hashable.py": {
+                    "added": 0,
+                    "deleted": 112
+                },
+                "test_memory_consumption.py": {
+                    "added": 110,
+                    "deleted": 109
+                },
+                "test_repository.py": {
+                    "added": 0,
+                    "deleted": 0
+                },
+                "tmp.py": {
+                    "added": 21,
+                    "deleted": 33
+                }
             },
-            "commit.py": {
-                "added": 148,
-                "deleted": 185
-            },
-            "conf.py": {
-                "added": 22,
-                "deleted": 19
-            },
-            "continuous-integration-workflow.yml": {
-                "added": 2,
-                "deleted": 2
-            },
-            "developer.py": {
-                "added": 1,
-                "deleted": 1
-            },
-            "git.py": {
-                "added": 7,
-                "deleted": 3
-            },
-            "publish.yml": {
-                "added": 48,
-                "deleted": 3
-            },
-            "repository.py": {
-                "added": 18,
-                "deleted": 34
-            },
-            "requirements.txt": {
-                "added": 1,
-                "deleted": 1
-            },
-            "test-requirements.txt": {
-                "added": 2,
-                "deleted": 0
-            },
-            "test_commit.py": {
-                "added": 145,
-                "deleted": 103
-            },
-            "test_commit_filters.py": {
-                "added": 1,
-                "deleted": 1
-            },
-            "test_diff.py": {
-                "added": 4,
-                "deleted": 0
-            },
-            "test_git.py": {
-                "added": 5,
-                "deleted": 6
-            },
-            "test_hashable.py": {
-                "added": 0,
-                "deleted": 112
-            },
-            "test_memory_consumption.py": {
-                "added": 110,
-                "deleted": 109
-            },
-            "test_repository.py": {
-                "added": 0,
-                "deleted": 0
-            },
-            "tmp.py": {
-                "added": 21,
-                "deleted": 33
+            "languages": {
+                "Python": 51,
+                "Text": 3,
+                "YAML": 3
             }
-        },
-        "languages": {
-            "Python": 51,
-            "Text": 3,
-            "YAML": 3
         }
     },
     "dtuchyna@redhat.com": {
-        "changed_files": {
-            "processmetrics.rst": {
-                "added": 1,
-                "deleted": 1
+        "https://github.com/ishepard/pydriller": {
+            "changed_files": {
+                "processmetrics.rst": {
+                    "added": 1,
+                    "deleted": 1
+                }
+            },
+            "languages": {
+                "reStructuredText": 1
             }
-        },
-        "languages": {
-            "reStructuredText": 1
         }
     },
     "evan.casey@allstacks.com": {
-        "changed_files": {
-            "conf.py": {
-                "added": 8,
-                "deleted": 0
+        "https://github.com/ishepard/pydriller": {
+            "changed_files": {
+                "conf.py": {
+                    "added": 8,
+                    "deleted": 0
+                },
+                "repository_mining.py": {
+                    "added": 7,
+                    "deleted": 1
+                },
+                "test_commit_filters.py": {
+                    "added": 41,
+                    "deleted": 1
+                }
             },
-            "repository_mining.py": {
-                "added": 7,
-                "deleted": 1
-            },
-            "test_commit_filters.py": {
-                "added": 41,
-                "deleted": 1
+            "languages": {
+                "Python": 3
             }
-        },
-        "languages": {
-            "Python": 3
         }
     },
     "f.kalvelage@posteo.de": {
-        "changed_files": {
-            "modifiedfile.rst": {
-                "added": 2,
-                "deleted": 2
+        "https://github.com/ishepard/pydriller": {
+            "changed_files": {
+                "modifiedfile.rst": {
+                    "added": 2,
+                    "deleted": 2
+                }
+            },
+            "languages": {
+                "reStructuredText": 1
             }
-        },
-        "languages": {
-            "reStructuredText": 1
         }
     },
     "felipe.ebert@gmail.com": {
-        "changed_files": {
-            "gitrepository.rst": {
-                "added": 1,
-                "deleted": 1
+        "https://github.com/ishepard/pydriller": {
+            "changed_files": {
+                "gitrepository.rst": {
+                    "added": 1,
+                    "deleted": 1
+                }
+            },
+            "languages": {
+                "reStructuredText": 1
             }
-        },
-        "languages": {
-            "reStructuredText": 1
         }
     },
     "gliptak@gmail.com": {
-        "changed_files": {
-            "continuous-integration-workflow.yml": {
-                "added": 3,
-                "deleted": 3
+        "https://github.com/ishepard/pydriller": {
+            "changed_files": {
+                "continuous-integration-workflow.yml": {
+                    "added": 3,
+                    "deleted": 3
+                }
+            },
+            "languages": {
+                "YAML": 1
             }
-        },
-        "languages": {
-            "YAML": 1
         }
     },
     "grzegorz.lato@gmail.com": {
-        "changed_files": {
-            "code_churn.py": {
-                "added": 19,
-                "deleted": 12
+        "https://github.com/ishepard/pydriller": {
+            "changed_files": {
+                "code_churn.py": {
+                    "added": 19,
+                    "deleted": 12
+                },
+                "processmetrics.rst": {
+                    "added": 11,
+                    "deleted": 1
+                },
+                "test_code_churn.py": {
+                    "added": 16,
+                    "deleted": 2
+                }
             },
-            "processmetrics.rst": {
-                "added": 11,
-                "deleted": 1
-            },
-            "test_code_churn.py": {
-                "added": 16,
-                "deleted": 2
+            "languages": {
+                "Python": 4,
+                "reStructuredText": 1
             }
-        },
-        "languages": {
-            "Python": 4,
-            "reStructuredText": 1
         }
     },
     "ha.t@cybersierra.co": {
-        "changed_files": {
-            "repository.py": {
-                "added": 129,
-                "deleted": 124
+        "https://github.com/ishepard/pydriller": {
+            "changed_files": {
+                "repository.py": {
+                    "added": 129,
+                    "deleted": 124
+                },
+                "test_repository_mining.py": {
+                    "added": 21,
+                    "deleted": 2
+                }
             },
-            "test_repository_mining.py": {
-                "added": 21,
-                "deleted": 2
+            "languages": {
+                "Python": 9
             }
-        },
-        "languages": {
-            "Python": 9
         }
     },
     "j.goodwin049@gmail.com": {
-        "changed_files": {
-            "repository_mining.py": {
-                "added": 17,
-                "deleted": 6
+        "https://github.com/ishepard/pydriller": {
+            "changed_files": {
+                "repository_mining.py": {
+                    "added": 17,
+                    "deleted": 6
+                },
+                "test_repository_mining.py": {
+                    "added": 21,
+                    "deleted": 5
+                }
             },
-            "test_repository_mining.py": {
-                "added": 21,
-                "deleted": 5
+            "languages": {
+                "Python": 5
             }
-        },
-        "languages": {
-            "Python": 5
         }
     },
     "k----n@users.noreply.github.com": {
-        "changed_files": {
-            "commit.rst": {
-                "added": 1,
-                "deleted": 1
+        "https://github.com/ishepard/pydriller": {
+            "changed_files": {
+                "commit.rst": {
+                    "added": 1,
+                    "deleted": 1
+                },
+                "modifiedfile.rst": {
+                    "added": 3,
+                    "deleted": 3
+                }
             },
-            "modifiedfile.rst": {
-                "added": 3,
-                "deleted": 3
+            "languages": {
+                "reStructuredText": 3
             }
-        },
-        "languages": {
-            "reStructuredText": 3
         }
     },
     "kanghongjin@gmail.com": {
-        "changed_files": {
-            "configuration.rst": {
-                "added": 1,
-                "deleted": 1
+        "https://github.com/ishepard/pydriller": {
+            "changed_files": {
+                "configuration.rst": {
+                    "added": 1,
+                    "deleted": 1
+                },
+                "git_repository.py": {
+                    "added": 26,
+                    "deleted": 10
+                },
+                "repository_mining.py": {
+                    "added": 17,
+                    "deleted": 6
+                },
+                "test_git_repository.py": {
+                    "added": 19,
+                    "deleted": 0
+                },
+                "test_repository_mining.py": {
+                    "added": 21,
+                    "deleted": 0
+                }
             },
-            "git_repository.py": {
-                "added": 26,
-                "deleted": 10
-            },
-            "repository_mining.py": {
-                "added": 17,
-                "deleted": 6
-            },
-            "test_git_repository.py": {
-                "added": 19,
-                "deleted": 0
-            },
-            "test_repository_mining.py": {
-                "added": 21,
-                "deleted": 0
+            "languages": {
+                "Python": 8,
+                "reStructuredText": 1
             }
-        },
-        "languages": {
-            "Python": 8,
-            "reStructuredText": 1
         }
     },
     "ledenelintelli@gmail.com": {
-        "changed_files": {
-            "git_repository.py": {
-                "added": 1,
-                "deleted": 1
+        "https://github.com/ishepard/pydriller": {
+            "changed_files": {
+                "git_repository.py": {
+                    "added": 1,
+                    "deleted": 1
+                },
+                "test-repos.zip": {
+                    "added": 0,
+                    "deleted": 0
+                },
+                "test_git_repository.py": {
+                    "added": 13,
+                    "deleted": 0
+                }
             },
-            "test-repos.zip": {
-                "added": 0,
-                "deleted": 0
-            },
-            "test_git_repository.py": {
-                "added": 13,
-                "deleted": 0
+            "languages": {
+                "Python": 2,
+                "binary": 1
             }
-        },
-        "languages": {
-            "Python": 2,
-            "binary": 1
         }
     },
     "lgtm-migrator@users.noreply.github.com": {
-        "changed_files": {
-            "codeql.yml": {
-                "added": 41,
-                "deleted": 0
+        "https://github.com/ishepard/pydriller": {
+            "changed_files": {
+                "codeql.yml": {
+                    "added": 41,
+                    "deleted": 0
+                }
+            },
+            "languages": {
+                "YAML": 1
             }
-        },
-        "languages": {
-            "YAML": 1
         }
     },
     "liuchao890@126.com": {
-        "changed_files": {
-            "commit.py": {
-                "added": 46,
-                "deleted": 10
+        "https://github.com/ishepard/pydriller": {
+            "changed_files": {
+                "commit.py": {
+                    "added": 46,
+                    "deleted": 10
+                },
+                "test_git_repository.py": {
+                    "added": 4,
+                    "deleted": 0
+                }
             },
-            "test_git_repository.py": {
-                "added": 4,
-                "deleted": 0
+            "languages": {
+                "Python": 6
             }
-        },
-        "languages": {
-            "Python": 6
         }
     },
     "luca.pascarella@gmail.com": {
-        "changed_files": {
-            "commit.py": {
-                "added": 4,
-                "deleted": 1
+        "https://github.com/ishepard/pydriller": {
+            "changed_files": {
+                "commit.py": {
+                    "added": 4,
+                    "deleted": 1
+                },
+                "git_repository.py": {
+                    "added": 0,
+                    "deleted": 4
+                },
+                "test-repos.zip": {
+                    "added": 0,
+                    "deleted": 0
+                },
+                "test_commit.py": {
+                    "added": 9,
+                    "deleted": 0
+                }
             },
-            "git_repository.py": {
-                "added": 0,
-                "deleted": 4
-            },
-            "test-repos.zip": {
-                "added": 0,
-                "deleted": 0
-            },
-            "test_commit.py": {
-                "added": 9,
-                "deleted": 0
+            "languages": {
+                "Python": 3,
+                "binary": 1
             }
-        },
-        "languages": {
-            "Python": 3,
-            "binary": 1
         }
     },
     "mcastelluccio@mozilla.com": {
-        "changed_files": {
-            ".travis.yml": {
-                "added": 4,
-                "deleted": 4
+        "https://github.com/ishepard/pydriller": {
+            "changed_files": {
+                ".travis.yml": {
+                    "added": 4,
+                    "deleted": 4
+                },
+                "git_repository.py": {
+                    "added": 46,
+                    "deleted": 40
+                },
+                "hyperblame.py": {
+                    "added": 0,
+                    "deleted": 282
+                },
+                "requirements.txt": {
+                    "added": 1,
+                    "deleted": 1
+                },
+                "test_git_repository.py": {
+                    "added": 88,
+                    "deleted": 8
+                }
             },
-            "git_repository.py": {
-                "added": 46,
-                "deleted": 40
-            },
-            "hyperblame.py": {
-                "added": 0,
-                "deleted": 282
-            },
-            "requirements.txt": {
-                "added": 1,
-                "deleted": 1
-            },
-            "test_git_repository.py": {
-                "added": 88,
-                "deleted": 8
+            "languages": {
+                "Python": 8,
+                "Text": 1,
+                "YAML": 1
             }
-        },
-        "languages": {
-            "Python": 8,
-            "Text": 1,
-            "YAML": 1
         }
     },
     "ondrej.tethal@oracle.com": {
-        "changed_files": {
-            "commit.py": {
-                "added": 2,
-                "deleted": 2
+        "https://github.com/ishepard/pydriller": {
+            "changed_files": {
+                "commit.py": {
+                    "added": 2,
+                    "deleted": 2
+                }
+            },
+            "languages": {
+                "Python": 2
             }
-        },
-        "languages": {
-            "Python": 2
         }
     },
     "ropf@itu.dk": {
-        "changed_files": {
-            "commit.py": {
-                "added": 177,
-                "deleted": 83
+        "https://github.com/ishepard/pydriller": {
+            "changed_files": {
+                "commit.py": {
+                    "added": 177,
+                    "deleted": 83
+                },
+                "repository.py": {
+                    "added": 23,
+                    "deleted": 20
+                },
+                "test_hashable.py": {
+                    "added": 101,
+                    "deleted": 42
+                },
+                "test_repository_mining.py": {
+                    "added": 17,
+                    "deleted": 0
+                }
             },
-            "repository.py": {
-                "added": 23,
-                "deleted": 20
-            },
-            "test_hashable.py": {
-                "added": 101,
-                "deleted": 42
-            },
-            "test_repository_mining.py": {
-                "added": 17,
-                "deleted": 0
+            "languages": {
+                "Python": 12
             }
-        },
-        "languages": {
-            "Python": 12
         }
     },
     "shantanu.oak@gmail.com": {
-        "changed_files": {
-            "README.md": {
-                "added": 1,
-                "deleted": 1
+        "https://github.com/ishepard/pydriller": {
+            "changed_files": {
+                "README.md": {
+                    "added": 1,
+                    "deleted": 1
+                }
+            },
+            "languages": {
+                "Markdown": 1
             }
-        },
-        "languages": {
-            "Markdown": 1
         }
     },
     "spadini.davide@gmail.com": {
-        "changed_files": {
-            ".appveyor.yml": {
-                "added": 222,
-                "deleted": 222
-            },
-            ".bettercodehub.yml": {
-                "added": 15,
-                "deleted": 15
-            },
-            ".codecov.yml": {
-                "added": 13,
-                "deleted": 1
-            },
-            ".coveragerc": {
-                "added": 15,
-                "deleted": 1
-            },
-            ".deepsource.toml": {
-                "added": 17,
-                "deleted": 17
-            },
-            ".flake8": {
-                "added": 7,
-                "deleted": 1
-            },
-            ".gitignore": {
-                "added": 229,
-                "deleted": 4
-            },
-            ".pylintrc": {
-                "added": 578,
-                "deleted": 578
-            },
-            ".readthedocs.yml": {
-                "added": 8,
-                "deleted": 2
-            },
-            ".travis.yml": {
-                "added": 90,
-                "deleted": 90
-            },
-            "BlamedLine.py": {
-                "added": 16,
-                "deleted": 0
-            },
-            "ChangeSet.py": {
-                "added": 15,
-                "deleted": 0
-            },
-            "Commit.py": {
-                "added": 34,
-                "deleted": 0
-            },
-            "CommitVisitor.py": {
-                "added": 9,
-                "deleted": 0
-            },
-            "Developer.py": {
-                "added": 12,
-                "deleted": 0
-            },
-            "DiffBlock.py": {
-                "added": 4,
-                "deleted": 0
-            },
-            "LICENSE": {
-                "added": 177,
-                "deleted": 0
-            },
-            "Makefile": {
-                "added": 20,
-                "deleted": 0
-            },
-            "Modification.py": {
-                "added": 48,
-                "deleted": 0
-            },
-            "ModificationType.py": {
-                "added": 9,
-                "deleted": 0
-            },
-            "README.md": {
-                "added": 373,
-                "deleted": 284
-            },
-            "__init__.py": {
-                "added": 19,
-                "deleted": 14
-            },
-            "blamed_line.py": {
-                "added": 0,
-                "deleted": 16
-            },
-            "bug_report.md": {
-                "added": 17,
-                "deleted": 0
-            },
-            "change_set.py": {
-                "added": 5,
-                "deleted": 19
-            },
-            "codeStyleConfig.xml": {
-                "added": 5,
-                "deleted": 5
-            },
-            "code_churn.py": {
-                "added": 7,
-                "deleted": 8
-            },
-            "commit.py": {
-                "added": 1145,
-                "deleted": 670
-            },
-            "commit.rst": {
-                "added": 76,
-                "deleted": 32
-            },
-            "commit_and_authors.py": {
-                "added": 8,
-                "deleted": 8
-            },
-            "commit_and_num_of_modified_files.py": {
-                "added": 8,
-                "deleted": 8
-            },
-            "commit_visitor.py": {
-                "added": 13,
-                "deleted": 22
-            },
-            "commits_containing_bugs_in_message.py": {
-                "added": 11,
-                "deleted": 11
-            },
-            "commits_count.py": {
-                "added": 6,
-                "deleted": 8
-            },
-            "concurrency_visitor_test.py": {
-                "added": 20,
-                "deleted": 20
-            },
-            "conf.py": {
-                "added": 662,
-                "deleted": 219
-            },
-            "configuration.rst": {
-                "added": 243,
-                "deleted": 94
-            },
-            "continuous-integration-workflow.yml": {
-                "added": 106,
-                "deleted": 64
-            },
-            "contributors_count.py": {
-                "added": 24,
-                "deleted": 21
-            },
-            "contributors_experience.py": {
-                "added": 8,
-                "deleted": 7
-            },
-            "deltamaintainability.rst": {
-                "added": 2,
-                "deleted": 2
-            },
-            "developer.py": {
-                "added": 31,
-                "deleted": 3
-            },
-            "diff_block.py": {
-                "added": 0,
-                "deleted": 4
-            },
-            "diff_of_files.py": {
-                "added": 10,
-                "deleted": 10
-            },
-            "feature_request.md": {
-                "added": 17,
-                "deleted": 0
-            },
-            "git.py": {
-                "added": 3,
-                "deleted": 3
-            },
-            "git.rst": {
-                "added": 9,
-                "deleted": 9
-            },
-            "git_repository.py": {
-                "added": 1047,
-                "deleted": 751
-            },
-            "git_repository_tests.py": {
-                "added": 133,
-                "deleted": 133
-            },
-            "gitrepository.rst": {
-                "added": 88,
-                "deleted": 40
-            },
-            "history_complexity.py": {
-                "added": 9,
-                "deleted": 5
-            },
-            "hunks_count.py": {
-                "added": 9,
-                "deleted": 8
-            },
-            "hyperblame.py": {
-                "added": 336,
-                "deleted": 54
-            },
-            "index.rst": {
-                "added": 30,
-                "deleted": 3
-            },
-            "intro.rst": {
-                "added": 89,
-                "deleted": 12
-            },
-            "lines_count.py": {
-                "added": 18,
-                "deleted": 14
-            },
-            "memory_consumption.py": {
-                "added": 49,
-                "deleted": 0
-            },
-            "metrics.py": {
-                "added": 0,
-                "deleted": 98
-            },
-            "misc.xml": {
-                "added": 10,
-                "deleted": 10
-            },
-            "modification.py": {
-                "added": 64,
-                "deleted": 112
-            },
-            "modification_type.py": {
-                "added": 0,
-                "deleted": 9
-            },
-            "modifications.rst": {
-                "added": 70,
-                "deleted": 31
-            },
-            "modules.xml": {
-                "added": 8,
-                "deleted": 8
-            },
-            "mygif.gif": {
-                "added": 0,
-                "deleted": 0
-            },
-            "name_of_modified_files_per_commit.py": {
-                "added": 8,
-                "deleted": 8
-            },
-            "only_commits_that_modified_java_files.py": {
-                "added": 9,
-                "deleted": 9
-            },
-            "persistence_mechanism.py": {
-                "added": 2,
-                "deleted": 2
-            },
-            "process_metric.py": {
-                "added": 16,
-                "deleted": 10
-            },
-            "process_metrics.py": {
-                "added": 50,
-                "deleted": 56
-            },
-            "pydriller.iml": {
-                "added": 19,
-                "deleted": 19
-            },
-            "pytest.ini": {
-                "added": 6,
-                "deleted": 1
-            },
-            "reference.rst": {
-                "added": 73,
-                "deleted": 15
-            },
-            "repository.py": {
-                "added": 34,
-                "deleted": 28
-            },
-            "repository.rst": {
-                "added": 24,
-                "deleted": 24
-            },
-            "repository_mining.py": {
-                "added": 1125,
-                "deleted": 892
-            },
-            "repository_mining_tests.py": {
-                "added": 108,
-                "deleted": 108
-            },
-            "repositorymining.rst": {
-                "added": 22,
-                "deleted": 12
-            },
-            "requirements.txt": {
-                "added": 18,
-                "deleted": 15
-            },
-            "scm_repository.py": {
-                "added": 2,
-                "deleted": 2
-            },
-            "setup.py": {
-                "added": 142,
-                "deleted": 80
-            },
-            "test-repos.zip": {
-                "added": 0,
-                "deleted": 0
-            },
-            "test-requirements.txt": {
-                "added": 7,
-                "deleted": 5
-            },
-            "test_between_dates.py": {
-                "added": 139,
-                "deleted": 81
-            },
-            "test_between_tags.py": {
-                "added": 80,
-                "deleted": 32
-            },
-            "test_change_set.py": {
-                "added": 2,
-                "deleted": 0
-            },
-            "test_code_churn.py": {
-                "added": 3,
-                "deleted": 4
-            },
-            "test_commit.py": {
-                "added": 512,
-                "deleted": 237
-            },
-            "test_commit_filters.py": {
-                "added": 680,
-                "deleted": 331
-            },
-            "test_commits_count.py": {
-                "added": 28,
-                "deleted": 21
-            },
-            "test_concurrency.py": {
-                "added": 82,
-                "deleted": 82
-            },
-            "test_contributors_count.py": {
-                "added": 15,
-                "deleted": 10
-            },
-            "test_contributors_experience_count.py": {
-                "added": 33,
-                "deleted": 17
-            },
-            "test_dates_and_timezones.py": {
-                "added": 117,
-                "deleted": 75
-            },
-            "test_developer.py": {
-                "added": 14,
-                "deleted": 1
-            },
-            "test_diff.py": {
-                "added": 359,
-                "deleted": 284
-            },
-            "test_distinct_devs_count.py": {
-                "added": 6,
-                "deleted": 4
-            },
-            "test_dmm.py": {
-                "added": 31,
-                "deleted": 22
-            },
-            "test_git_repository.py": {
-                "added": 1173,
-                "deleted": 791
-            },
-            "test_history_complexity.py": {
-                "added": 5,
-                "deleted": 22
-            },
-            "test_history_complexity_count.py": {
-                "added": 31,
-                "deleted": 13
-            },
-            "test_hunks_count.py": {
-                "added": 36,
-                "deleted": 17
-            },
-            "test_lines_added.py": {
-                "added": 15,
-                "deleted": 2
-            },
-            "test_lines_count.py": {
-                "added": 21,
-                "deleted": 17
-            },
-            "test_lines_removed.py": {
-                "added": 5,
-                "deleted": 4
-            },
-            "test_memory_consumption.py": {
-                "added": 446,
-                "deleted": 356
-            },
-            "test_minor_contributors_count.py": {
-                "added": 15,
-                "deleted": 12
-            },
-            "test_modification.py": {
-                "added": 54,
-                "deleted": 54
-            },
-            "test_only_modification_with_file_type.py": {
-                "added": 42,
-                "deleted": 42
-            },
-            "test_process_metric.py": {
-                "added": 3,
-                "deleted": 2
-            },
-            "test_ranges.py": {
-                "added": 419,
-                "deleted": 343
-            },
-            "test_repository.py": {
-                "added": 17,
-                "deleted": 17
-            },
-            "test_repository_mining.py": {
-                "added": 747,
-                "deleted": 410
-            },
-            "test_reverse_order.py": {
-                "added": 109,
-                "deleted": 109
-            },
-            "tutorial.rst": {
-                "added": 89,
-                "deleted": 47
-            },
-            "visitor_test.py": {
-                "added": 24,
-                "deleted": 24
+        "https://github.com/ishepard/pydriller": {
+            "changed_files": {
+                ".appveyor.yml": {
+                    "added": 222,
+                    "deleted": 222
+                },
+                ".bettercodehub.yml": {
+                    "added": 15,
+                    "deleted": 15
+                },
+                ".codecov.yml": {
+                    "added": 13,
+                    "deleted": 1
+                },
+                ".coveragerc": {
+                    "added": 15,
+                    "deleted": 1
+                },
+                ".deepsource.toml": {
+                    "added": 17,
+                    "deleted": 17
+                },
+                ".flake8": {
+                    "added": 7,
+                    "deleted": 1
+                },
+                ".gitignore": {
+                    "added": 229,
+                    "deleted": 4
+                },
+                ".pylintrc": {
+                    "added": 578,
+                    "deleted": 578
+                },
+                ".readthedocs.yml": {
+                    "added": 8,
+                    "deleted": 2
+                },
+                ".travis.yml": {
+                    "added": 90,
+                    "deleted": 90
+                },
+                "BlamedLine.py": {
+                    "added": 16,
+                    "deleted": 0
+                },
+                "ChangeSet.py": {
+                    "added": 15,
+                    "deleted": 0
+                },
+                "Commit.py": {
+                    "added": 34,
+                    "deleted": 0
+                },
+                "CommitVisitor.py": {
+                    "added": 9,
+                    "deleted": 0
+                },
+                "Developer.py": {
+                    "added": 12,
+                    "deleted": 0
+                },
+                "DiffBlock.py": {
+                    "added": 4,
+                    "deleted": 0
+                },
+                "LICENSE": {
+                    "added": 177,
+                    "deleted": 0
+                },
+                "Makefile": {
+                    "added": 20,
+                    "deleted": 0
+                },
+                "Modification.py": {
+                    "added": 48,
+                    "deleted": 0
+                },
+                "ModificationType.py": {
+                    "added": 9,
+                    "deleted": 0
+                },
+                "README.md": {
+                    "added": 373,
+                    "deleted": 284
+                },
+                "__init__.py": {
+                    "added": 19,
+                    "deleted": 14
+                },
+                "blamed_line.py": {
+                    "added": 0,
+                    "deleted": 16
+                },
+                "bug_report.md": {
+                    "added": 17,
+                    "deleted": 0
+                },
+                "change_set.py": {
+                    "added": 5,
+                    "deleted": 19
+                },
+                "codeStyleConfig.xml": {
+                    "added": 5,
+                    "deleted": 5
+                },
+                "code_churn.py": {
+                    "added": 7,
+                    "deleted": 8
+                },
+                "commit.py": {
+                    "added": 1145,
+                    "deleted": 670
+                },
+                "commit.rst": {
+                    "added": 76,
+                    "deleted": 32
+                },
+                "commit_and_authors.py": {
+                    "added": 8,
+                    "deleted": 8
+                },
+                "commit_and_num_of_modified_files.py": {
+                    "added": 8,
+                    "deleted": 8
+                },
+                "commit_visitor.py": {
+                    "added": 13,
+                    "deleted": 22
+                },
+                "commits_containing_bugs_in_message.py": {
+                    "added": 11,
+                    "deleted": 11
+                },
+                "commits_count.py": {
+                    "added": 6,
+                    "deleted": 8
+                },
+                "concurrency_visitor_test.py": {
+                    "added": 20,
+                    "deleted": 20
+                },
+                "conf.py": {
+                    "added": 662,
+                    "deleted": 219
+                },
+                "configuration.rst": {
+                    "added": 243,
+                    "deleted": 94
+                },
+                "continuous-integration-workflow.yml": {
+                    "added": 106,
+                    "deleted": 64
+                },
+                "contributors_count.py": {
+                    "added": 24,
+                    "deleted": 21
+                },
+                "contributors_experience.py": {
+                    "added": 8,
+                    "deleted": 7
+                },
+                "deltamaintainability.rst": {
+                    "added": 2,
+                    "deleted": 2
+                },
+                "developer.py": {
+                    "added": 31,
+                    "deleted": 3
+                },
+                "diff_block.py": {
+                    "added": 0,
+                    "deleted": 4
+                },
+                "diff_of_files.py": {
+                    "added": 10,
+                    "deleted": 10
+                },
+                "feature_request.md": {
+                    "added": 17,
+                    "deleted": 0
+                },
+                "git.py": {
+                    "added": 3,
+                    "deleted": 3
+                },
+                "git.rst": {
+                    "added": 9,
+                    "deleted": 9
+                },
+                "git_repository.py": {
+                    "added": 1047,
+                    "deleted": 751
+                },
+                "git_repository_tests.py": {
+                    "added": 133,
+                    "deleted": 133
+                },
+                "gitrepository.rst": {
+                    "added": 88,
+                    "deleted": 40
+                },
+                "history_complexity.py": {
+                    "added": 9,
+                    "deleted": 5
+                },
+                "hunks_count.py": {
+                    "added": 9,
+                    "deleted": 8
+                },
+                "hyperblame.py": {
+                    "added": 336,
+                    "deleted": 54
+                },
+                "index.rst": {
+                    "added": 30,
+                    "deleted": 3
+                },
+                "intro.rst": {
+                    "added": 89,
+                    "deleted": 12
+                },
+                "lines_count.py": {
+                    "added": 18,
+                    "deleted": 14
+                },
+                "memory_consumption.py": {
+                    "added": 49,
+                    "deleted": 0
+                },
+                "metrics.py": {
+                    "added": 0,
+                    "deleted": 98
+                },
+                "misc.xml": {
+                    "added": 10,
+                    "deleted": 10
+                },
+                "modification.py": {
+                    "added": 64,
+                    "deleted": 112
+                },
+                "modification_type.py": {
+                    "added": 0,
+                    "deleted": 9
+                },
+                "modifications.rst": {
+                    "added": 70,
+                    "deleted": 31
+                },
+                "modules.xml": {
+                    "added": 8,
+                    "deleted": 8
+                },
+                "mygif.gif": {
+                    "added": 0,
+                    "deleted": 0
+                },
+                "name_of_modified_files_per_commit.py": {
+                    "added": 8,
+                    "deleted": 8
+                },
+                "only_commits_that_modified_java_files.py": {
+                    "added": 9,
+                    "deleted": 9
+                },
+                "persistence_mechanism.py": {
+                    "added": 2,
+                    "deleted": 2
+                },
+                "process_metric.py": {
+                    "added": 16,
+                    "deleted": 10
+                },
+                "process_metrics.py": {
+                    "added": 50,
+                    "deleted": 56
+                },
+                "pydriller.iml": {
+                    "added": 19,
+                    "deleted": 19
+                },
+                "pytest.ini": {
+                    "added": 6,
+                    "deleted": 1
+                },
+                "reference.rst": {
+                    "added": 73,
+                    "deleted": 15
+                },
+                "repository.py": {
+                    "added": 34,
+                    "deleted": 28
+                },
+                "repository.rst": {
+                    "added": 24,
+                    "deleted": 24
+                },
+                "repository_mining.py": {
+                    "added": 1125,
+                    "deleted": 892
+                },
+                "repository_mining_tests.py": {
+                    "added": 108,
+                    "deleted": 108
+                },
+                "repositorymining.rst": {
+                    "added": 22,
+                    "deleted": 12
+                },
+                "requirements.txt": {
+                    "added": 18,
+                    "deleted": 15
+                },
+                "scm_repository.py": {
+                    "added": 2,
+                    "deleted": 2
+                },
+                "setup.py": {
+                    "added": 142,
+                    "deleted": 80
+                },
+                "test-repos.zip": {
+                    "added": 0,
+                    "deleted": 0
+                },
+                "test-requirements.txt": {
+                    "added": 7,
+                    "deleted": 5
+                },
+                "test_between_dates.py": {
+                    "added": 139,
+                    "deleted": 81
+                },
+                "test_between_tags.py": {
+                    "added": 80,
+                    "deleted": 32
+                },
+                "test_change_set.py": {
+                    "added": 2,
+                    "deleted": 0
+                },
+                "test_code_churn.py": {
+                    "added": 3,
+                    "deleted": 4
+                },
+                "test_commit.py": {
+                    "added": 512,
+                    "deleted": 237
+                },
+                "test_commit_filters.py": {
+                    "added": 680,
+                    "deleted": 331
+                },
+                "test_commits_count.py": {
+                    "added": 28,
+                    "deleted": 21
+                },
+                "test_concurrency.py": {
+                    "added": 82,
+                    "deleted": 82
+                },
+                "test_contributors_count.py": {
+                    "added": 15,
+                    "deleted": 10
+                },
+                "test_contributors_experience_count.py": {
+                    "added": 33,
+                    "deleted": 17
+                },
+                "test_dates_and_timezones.py": {
+                    "added": 117,
+                    "deleted": 75
+                },
+                "test_developer.py": {
+                    "added": 14,
+                    "deleted": 1
+                },
+                "test_diff.py": {
+                    "added": 359,
+                    "deleted": 284
+                },
+                "test_distinct_devs_count.py": {
+                    "added": 6,
+                    "deleted": 4
+                },
+                "test_dmm.py": {
+                    "added": 31,
+                    "deleted": 22
+                },
+                "test_git_repository.py": {
+                    "added": 1173,
+                    "deleted": 791
+                },
+                "test_history_complexity.py": {
+                    "added": 5,
+                    "deleted": 22
+                },
+                "test_history_complexity_count.py": {
+                    "added": 31,
+                    "deleted": 13
+                },
+                "test_hunks_count.py": {
+                    "added": 36,
+                    "deleted": 17
+                },
+                "test_lines_added.py": {
+                    "added": 15,
+                    "deleted": 2
+                },
+                "test_lines_count.py": {
+                    "added": 21,
+                    "deleted": 17
+                },
+                "test_lines_removed.py": {
+                    "added": 5,
+                    "deleted": 4
+                },
+                "test_memory_consumption.py": {
+                    "added": 446,
+                    "deleted": 356
+                },
+                "test_minor_contributors_count.py": {
+                    "added": 15,
+                    "deleted": 12
+                },
+                "test_modification.py": {
+                    "added": 54,
+                    "deleted": 54
+                },
+                "test_only_modification_with_file_type.py": {
+                    "added": 42,
+                    "deleted": 42
+                },
+                "test_process_metric.py": {
+                    "added": 3,
+                    "deleted": 2
+                },
+                "test_ranges.py": {
+                    "added": 419,
+                    "deleted": 343
+                },
+                "test_repository.py": {
+                    "added": 17,
+                    "deleted": 17
+                },
+                "test_repository_mining.py": {
+                    "added": 747,
+                    "deleted": 410
+                },
+                "test_reverse_order.py": {
+                    "added": 109,
+                    "deleted": 109
+                },
+                "tutorial.rst": {
+                    "added": 89,
+                    "deleted": 47
+                },
+                "visitor_test.py": {
+                    "added": 24,
+                    "deleted": 24
+                }
+            },
+            "languages": {
+                "INI": 2,
+                "Ignore List": 9,
+                "Makefile": 1,
+                "Markdown": 49,
+                "Python": 836,
+                "TOML": 3,
+                "Text": 17,
+                "XML": 6,
+                "YAML": 93,
+                "binary": 33,
+                "reStructuredText": 87,
+                "undefined": 9
             }
-        },
-        "languages": {
-            "": 9,
-            "INI": 2,
-            "Ignore List": 9,
-            "Makefile": 1,
-            "Markdown": 49,
-            "Python": 836,
-            "TOML": 3,
-            "Text": 17,
-            "XML": 6,
-            "YAML": 93,
-            "binary": 33,
-            "reStructuredText": 87
         }
     },
     "stefano.dallapalma0@gmail.com": {
-        "changed_files": {
-            "README.md": {
-                "added": 53,
-                "deleted": 69
+        "https://github.com/ishepard/pydriller": {
+            "changed_files": {
+                "README.md": {
+                    "added": 53,
+                    "deleted": 69
+                },
+                "__init__.py": {
+                    "added": 0,
+                    "deleted": 0
+                },
+                "change_set.py": {
+                    "added": 58,
+                    "deleted": 8
+                },
+                "code_churn.py": {
+                    "added": 96,
+                    "deleted": 5
+                },
+                "comm.py": {
+                    "added": 30,
+                    "deleted": 30
+                },
+                "commit.py": {
+                    "added": 38,
+                    "deleted": 36
+                },
+                "commit_count.py": {
+                    "added": 40,
+                    "deleted": 0
+                },
+                "commits_count.py": {
+                    "added": 13,
+                    "deleted": 21
+                },
+                "common.py": {
+                    "added": 28,
+                    "deleted": 28
+                },
+                "contributors_count.py": {
+                    "added": 67,
+                    "deleted": 47
+                },
+                "contributors_experience.py": {
+                    "added": 55,
+                    "deleted": 5
+                },
+                "devs_count.py": {
+                    "added": 84,
+                    "deleted": 84
+                },
+                "devs_experience.py": {
+                    "added": 94,
+                    "deleted": 94
+                },
+                "history_complexity.py": {
+                    "added": 165,
+                    "deleted": 90
+                },
+                "hunks_count.py": {
+                    "added": 87,
+                    "deleted": 28
+                },
+                "index.rst": {
+                    "added": 1,
+                    "deleted": 1
+                },
+                "lines_count.py": {
+                    "added": 273,
+                    "deleted": 126
+                },
+                "metrics.py": {
+                    "added": 213,
+                    "deleted": 115
+                },
+                "minor_contributor_count.py": {
+                    "added": 60,
+                    "deleted": 60
+                },
+                "minor_contributors_count.py": {
+                    "added": 55,
+                    "deleted": 0
+                },
+                "new_devs_count.py": {
+                    "added": 89,
+                    "deleted": 89
+                },
+                "owner_experience.py": {
+                    "added": 84,
+                    "deleted": 84
+                },
+                "owner_lines_count.py": {
+                    "added": 65,
+                    "deleted": 65
+                },
+                "process_metric.py": {
+                    "added": 117,
+                    "deleted": 71
+                },
+                "process_metrics.py": {
+                    "added": 386,
+                    "deleted": 401
+                },
+                "processmetrics.rst": {
+                    "added": 235,
+                    "deleted": 18
+                },
+                "reference.rst": {
+                    "added": 1,
+                    "deleted": 1
+                },
+                "repository.py": {
+                    "added": 3,
+                    "deleted": 2
+                },
+                "requirements.txt": {
+                    "added": 2,
+                    "deleted": 2
+                },
+                "test_change_set.py": {
+                    "added": 39,
+                    "deleted": 2
+                },
+                "test_code_churn.py": {
+                    "added": 78,
+                    "deleted": 4
+                },
+                "test_comm.py": {
+                    "added": 9,
+                    "deleted": 9
+                },
+                "test_commit.py": {
+                    "added": 32,
+                    "deleted": 42
+                },
+                "test_commits_count.py": {
+                    "added": 129,
+                    "deleted": 100
+                },
+                "test_contributors_count.py": {
+                    "added": 38,
+                    "deleted": 4
+                },
+                "test_contributors_experience_count.py": {
+                    "added": 38,
+                    "deleted": 2
+                },
+                "test_devs_count.py": {
+                    "added": 48,
+                    "deleted": 48
+                },
+                "test_devs_count_prior.py": {
+                    "added": 9,
+                    "deleted": 9
+                },
+                "test_devs_experience.py": {
+                    "added": 6,
+                    "deleted": 22
+                },
+                "test_distinct_devs_count.py": {
+                    "added": 40,
+                    "deleted": 42
+                },
+                "test_git_repository.py": {
+                    "added": 3,
+                    "deleted": 3
+                },
+                "test_history_complexity.py": {
+                    "added": 32,
+                    "deleted": 15
+                },
+                "test_history_complexity_count.py": {
+                    "added": 39,
+                    "deleted": 3
+                },
+                "test_hunks_count.py": {
+                    "added": 51,
+                    "deleted": 14
+                },
+                "test_lines_added.py": {
+                    "added": 50,
+                    "deleted": 2
+                },
+                "test_lines_count.py": {
+                    "added": 101,
+                    "deleted": 64
+                },
+                "test_lines_removed.py": {
+                    "added": 50,
+                    "deleted": 2
+                },
+                "test_minor_contributor_count.py": {
+                    "added": 17,
+                    "deleted": 17
+                },
+                "test_minor_contributors_count.py": {
+                    "added": 48,
+                    "deleted": 10
+                },
+                "test_new_devs_count.py": {
+                    "added": 18,
+                    "deleted": 18
+                },
+                "test_new_devs_count_prior.py": {
+                    "added": 12,
+                    "deleted": 12
+                },
+                "test_normalized_added_lines.py": {
+                    "added": 28,
+                    "deleted": 28
+                },
+                "test_normalized_deleted_lines.py": {
+                    "added": 26,
+                    "deleted": 26
+                },
+                "test_owner_experience.py": {
+                    "added": 4,
+                    "deleted": 4
+                },
+                "test_owner_lines_count.py": {
+                    "added": 35,
+                    "deleted": 19
+                },
+                "test_process_metric.py": {
+                    "added": 22,
+                    "deleted": 0
+                },
+                "tutorial.rst": {
+                    "added": 4,
+                    "deleted": 4
+                }
             },
-            "__init__.py": {
-                "added": 0,
-                "deleted": 0
-            },
-            "change_set.py": {
-                "added": 58,
-                "deleted": 8
-            },
-            "code_churn.py": {
-                "added": 96,
-                "deleted": 5
-            },
-            "comm.py": {
-                "added": 30,
-                "deleted": 30
-            },
-            "commit.py": {
-                "added": 38,
-                "deleted": 36
-            },
-            "commit_count.py": {
-                "added": 40,
-                "deleted": 0
-            },
-            "commits_count.py": {
-                "added": 13,
-                "deleted": 21
-            },
-            "common.py": {
-                "added": 28,
-                "deleted": 28
-            },
-            "contributors_count.py": {
-                "added": 67,
-                "deleted": 47
-            },
-            "contributors_experience.py": {
-                "added": 55,
-                "deleted": 5
-            },
-            "devs_count.py": {
-                "added": 84,
-                "deleted": 84
-            },
-            "devs_experience.py": {
-                "added": 94,
-                "deleted": 94
-            },
-            "history_complexity.py": {
-                "added": 165,
-                "deleted": 90
-            },
-            "hunks_count.py": {
-                "added": 87,
-                "deleted": 28
-            },
-            "index.rst": {
-                "added": 1,
-                "deleted": 1
-            },
-            "lines_count.py": {
-                "added": 273,
-                "deleted": 126
-            },
-            "metrics.py": {
-                "added": 213,
-                "deleted": 115
-            },
-            "minor_contributor_count.py": {
-                "added": 60,
-                "deleted": 60
-            },
-            "minor_contributors_count.py": {
-                "added": 55,
-                "deleted": 0
-            },
-            "new_devs_count.py": {
-                "added": 89,
-                "deleted": 89
-            },
-            "owner_experience.py": {
-                "added": 84,
-                "deleted": 84
-            },
-            "owner_lines_count.py": {
-                "added": 65,
-                "deleted": 65
-            },
-            "process_metric.py": {
-                "added": 117,
-                "deleted": 71
-            },
-            "process_metrics.py": {
-                "added": 386,
-                "deleted": 401
-            },
-            "processmetrics.rst": {
-                "added": 235,
-                "deleted": 18
-            },
-            "reference.rst": {
-                "added": 1,
-                "deleted": 1
-            },
-            "repository.py": {
-                "added": 3,
-                "deleted": 2
-            },
-            "requirements.txt": {
-                "added": 2,
-                "deleted": 2
-            },
-            "test_change_set.py": {
-                "added": 39,
-                "deleted": 2
-            },
-            "test_code_churn.py": {
-                "added": 78,
-                "deleted": 4
-            },
-            "test_comm.py": {
-                "added": 9,
-                "deleted": 9
-            },
-            "test_commit.py": {
-                "added": 32,
-                "deleted": 42
-            },
-            "test_commits_count.py": {
-                "added": 129,
-                "deleted": 100
-            },
-            "test_contributors_count.py": {
-                "added": 38,
-                "deleted": 4
-            },
-            "test_contributors_experience_count.py": {
-                "added": 38,
-                "deleted": 2
-            },
-            "test_devs_count.py": {
-                "added": 48,
-                "deleted": 48
-            },
-            "test_devs_count_prior.py": {
-                "added": 9,
-                "deleted": 9
-            },
-            "test_devs_experience.py": {
-                "added": 6,
-                "deleted": 22
-            },
-            "test_distinct_devs_count.py": {
-                "added": 40,
-                "deleted": 42
-            },
-            "test_git_repository.py": {
-                "added": 3,
-                "deleted": 3
-            },
-            "test_history_complexity.py": {
-                "added": 32,
-                "deleted": 15
-            },
-            "test_history_complexity_count.py": {
-                "added": 39,
-                "deleted": 3
-            },
-            "test_hunks_count.py": {
-                "added": 51,
-                "deleted": 14
-            },
-            "test_lines_added.py": {
-                "added": 50,
-                "deleted": 2
-            },
-            "test_lines_count.py": {
-                "added": 101,
-                "deleted": 64
-            },
-            "test_lines_removed.py": {
-                "added": 50,
-                "deleted": 2
-            },
-            "test_minor_contributor_count.py": {
-                "added": 17,
-                "deleted": 17
-            },
-            "test_minor_contributors_count.py": {
-                "added": 48,
-                "deleted": 10
-            },
-            "test_new_devs_count.py": {
-                "added": 18,
-                "deleted": 18
-            },
-            "test_new_devs_count_prior.py": {
-                "added": 12,
-                "deleted": 12
-            },
-            "test_normalized_added_lines.py": {
-                "added": 28,
-                "deleted": 28
-            },
-            "test_normalized_deleted_lines.py": {
-                "added": 26,
-                "deleted": 26
-            },
-            "test_owner_experience.py": {
-                "added": 4,
-                "deleted": 4
-            },
-            "test_owner_lines_count.py": {
-                "added": 35,
-                "deleted": 19
-            },
-            "test_process_metric.py": {
-                "added": 22,
-                "deleted": 0
-            },
-            "tutorial.rst": {
-                "added": 4,
-                "deleted": 4
+            "languages": {
+                "Markdown": 1,
+                "Python": 194,
+                "Text": 2,
+                "reStructuredText": 7
             }
-        },
-        "languages": {
-            "Markdown": 1,
-            "Python": 194,
-            "Text": 2,
-            "reStructuredText": 7
         }
     },
     "stefano.dallapalmapalma0@gmail.com": {
-        "changed_files": {
-            "commit.py": {
-                "added": 39,
-                "deleted": 24
+        "https://github.com/ishepard/pydriller": {
+            "changed_files": {
+                "commit.py": {
+                    "added": 39,
+                    "deleted": 24
+                },
+                "test_commit.py": {
+                    "added": 89,
+                    "deleted": 13
+                },
+                "test_git_repository.py": {
+                    "added": 9,
+                    "deleted": 3
+                }
             },
-            "test_commit.py": {
-                "added": 89,
-                "deleted": 13
-            },
-            "test_git_repository.py": {
-                "added": 9,
-                "deleted": 3
+            "languages": {
+                "Python": 5
             }
-        },
-        "languages": {
-            "Python": 5
         }
     },
     "stephposs@gmail.com": {
-        "changed_files": {
-            "commit.py": {
-                "added": 6,
-                "deleted": 1
+        "https://github.com/ishepard/pydriller": {
+            "changed_files": {
+                "commit.py": {
+                    "added": 6,
+                    "deleted": 1
+                }
+            },
+            "languages": {
+                "Python": 1
             }
-        },
-        "languages": {
-            "Python": 1
         }
     },
     "th.trummer@gmail.com": {
-        "changed_files": {
-            "repository.py": {
-                "added": 1,
-                "deleted": 1
+        "https://github.com/ishepard/pydriller": {
+            "changed_files": {
+                "repository.py": {
+                    "added": 1,
+                    "deleted": 1
+                }
+            },
+            "languages": {
+                "Python": 1
             }
-        },
-        "languages": {
-            "Python": 1
         }
     },
     "totoroq@outlook.com": {
-        "changed_files": {
-            "repository.py": {
-                "added": 14,
-                "deleted": 15
+        "https://github.com/ishepard/pydriller": {
+            "changed_files": {
+                "repository.py": {
+                    "added": 14,
+                    "deleted": 15
+                }
+            },
+            "languages": {
+                "Python": 6
             }
-        },
-        "languages": {
-            "Python": 6
         }
     }
 }

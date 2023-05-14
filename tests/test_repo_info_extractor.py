@@ -42,19 +42,25 @@ class RepoExtractorTestCase(unittest.TestCase):
         commits_mock.return_value = self.commits
         files_mock.side_effect = self.modified_files
 
-        extractor = ReposInfoExtractor(["test-repo"])
+        test_repo_name = "test-repo"
+        extractor = ReposInfoExtractor([test_repo_name])
         programmers_info = extractor.programmers_info
 
         self.assertEqual(len(programmers_info), self.DEVELOPERS_NUMBER)
         added_lines_cnt = sum(
-            dev_info[filename]["added"] for dev_info in programmers_info.values() for filename in dev_info.keys()
+            dev_info[test_repo_name]["changed_files"][filename]["added"]
+            for dev_info in programmers_info.values() for filename in dev_info[test_repo_name]["changed_files"].keys()
         )
         self.assertEqual(added_lines_cnt, self.DEVELOPERS_ADDED_LINES)
         added_lines_cnt = sum(
-            dev_info[filename]["deleted"] for dev_info in programmers_info.values() for filename in dev_info.keys()
+            dev_info[test_repo_name]["changed_files"][filename]["deleted"]
+            for dev_info in programmers_info.values() for filename in dev_info[test_repo_name]["changed_files"].keys()
         )
         self.assertEqual(added_lines_cnt, self.DEVELOPERS_DELETED_LINES)
         modified_files_cnt = len(
-            set(filename for dev_info in programmers_info.values() for filename in dev_info.keys())
+            set(
+                filename for dev_info in programmers_info.values()
+                for filename in dev_info[test_repo_name]["changed_files"].keys()
+            )
         )
         self.assertEqual(modified_files_cnt, self.FILES_MODIFIED_NUMBER)
