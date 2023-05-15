@@ -1,8 +1,10 @@
-from collections import defaultdict
+from collections import defaultdict, Counter
 from typing import Dict, List
 
 from pydriller import ModifiedFile, Repository
 from tqdm import tqdm
+
+from .language_utils import extract_language
 
 
 class ReposInfoExtractor:
@@ -10,13 +12,16 @@ class ReposInfoExtractor:
     Class that extracts information about repos programmers from commits.
     """
 
+    LANGUAGE_FIELD = "languages"
+    FILES_FIELD = "changed_files"
+
     def __init__(self, repos_list: List[str]):
         """
         GitHub's repositories info extractor initialization.
         :param repos_list: List of paths to GitHub repositories.
         """
         self.repos_list = repos_list
-        self._programmers_info = defaultdict(dict)
+        self._programmers_info = defaultdict(lambda: defaultdict(lambda: defaultdict(dict)))
 
     def _extract_repo_info(self, path_to_repo: str) -> None:
         """
@@ -33,18 +38,22 @@ class ReposInfoExtractor:
             author_id = commit.author.email
 
             for file in commit.modified_files:
-                self._add_file_info(author_id, file)
+                self._add_file_info(author_id, file, path_to_repo)
 
-    def _add_file_info(self, author_id: str, file: ModifiedFile) -> None:
+    def _add_file_info(self, author_id: str, file: ModifiedFile, repo_name: str) -> None:
         """
         Add information about modified file to developer information.
         :param author_id: Unique name of GitHub developer.
         :param file: File from GitHub repository.
+        :param repo_name: Name of repository.
         """
-        if file.filename not in self._programmers_info[author_id]:
-            self._programmers_info[author_id][file.filename] = defaultdict(int)
-        self._programmers_info[author_id][file.filename]["added"] += file.added_lines
-        self._programmers_info[author_id][file.filename]["deleted"] += file.deleted_lines
+        if file.filename not in self._programmers_info[author_id][repo_name][self.FILES_FIELD]:
+            self._programmers_info[author_id][repo_name][self.FILES_FIELD][file.filename] = defaultdict(int)
+        self._programmers_info[author_id][repo_name][self.FILES_FIELD][file.filename]["added"] += file.added_lines
+        self._programmers_info[author_id][repo_name][self.FILES_FIELD][file.filename]["deleted"] += file.deleted_lines
+        if file.content:
+            file_language = extract_language(file.filename, file_content=file.content)
+            self._programmers_info[author_id][repo_name].setdefault(self.LANGUAGE_FIELD, Counter())[file_language] += 1
 
     @property
     def programmers_info(self) -> Dict[str, dict]:

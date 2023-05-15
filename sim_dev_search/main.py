@@ -8,7 +8,14 @@ from utils.stargazers_top_extractor import StargazersTopExtractor
 from utils.repos_info_extractor import ReposInfoExtractor
 
 
-@click.command(name="prog")
+@click.group()
+def cli():
+    """
+    Similar developers search line tool.
+    """
+
+
+@cli.command(name="prog")
 @click.option(
     "-r",
     "--repos_list",
@@ -71,14 +78,5 @@ def stargazers_top(repos_list: List[str], file_path: str, api_token: Optional[st
         json.dump(info_extractor.repositories_top, file_out, indent=4)
 
 
-@click.group()
-def cli():
-    """
-    Similar developers search line tool.
-    """
-
-
 if __name__ == "__main__":
-    cli.add_command(programmers_info)
-    cli.add_command(stargazers_top)
     cli()

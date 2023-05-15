@@ -81,6 +81,7 @@ class StargazersTopExtractor:
         """
         Extract starred repositories info from stargazers.
         :param stargazers: Set of repositories stargazers.
+        :param early_stop: Process defined stargazers number.
         :return: Counter of repositories stars from stargazers.
         """
         url_template = "https://api.github.com/users/{}/starred?page={}&per_page=100"
