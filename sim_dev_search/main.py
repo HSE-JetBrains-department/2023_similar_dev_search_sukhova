@@ -43,7 +43,7 @@ def programmers_info(repos_list: List[str], file_path: str) -> None:
         json.dump(info_extractor.programmers_info, file_out, indent=4, sort_keys=True)
 
 
-@click.command("top")
+@cli.command("top")
 @click.option(
     "-r",
     "--repos_list",
