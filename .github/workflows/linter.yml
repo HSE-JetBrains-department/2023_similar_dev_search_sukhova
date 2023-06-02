@@ -23,4 +23,5 @@ jobs:
         env:
           VALIDATE_ALL_CODEBASE: true
           VALIDATE_PYTHON_BLACK: true
+          PYTHON_BLACK_CONFIG_FILE: linters/.python-black
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
