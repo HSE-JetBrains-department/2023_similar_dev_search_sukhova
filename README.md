@@ -1,4 +1,5 @@
-![CI](https://github.com/ILilliasI/2023_similar_dev_search_sukhova/actions/workflows/main.yml/badge.svg)
+![Test](https://github.com/ILilliasI/2023_similar_dev_search_sukhova/actions/workflows/main.yml/badge.svg)
+[![Black Logo](https://raw.githubusercontent.com/psf/black/main/docs/_static/logo2-readme.png)](https://black.readthedocs.io/en/stable/)
 
 Проект "Поиск похожих разработчиков"
 ==========================================
