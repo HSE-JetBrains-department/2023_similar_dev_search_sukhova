@@ -16,7 +16,7 @@ class StargazersTopExtractor:
         repos_list: List[str],
         api_token: Optional[str] = None,
         repositories_top_size: int = 100,
-        max_pages_count: int = 10**10
+        max_pages_count: int = 10**10,
     ):
         """
         GitHub's repositories stargazers top repos extractor initialization.
