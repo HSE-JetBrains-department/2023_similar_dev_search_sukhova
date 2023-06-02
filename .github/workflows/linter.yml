@@ -23,5 +23,5 @@ jobs:
         env:
           VALIDATE_ALL_CODEBASE: true
           VALIDATE_PYTHON_BLACK: true
-          PYTHON_BLACK_CONFIG_FILE: linters/.python-black
+          VALIDATE_PYTHON_BLACK_OPTIONS: "--line-length 120"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
