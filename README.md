@@ -1,5 +1,5 @@
-![Test](https://github.com/ILilliasI/2023_similar_dev_search_sukhova/actions/workflows/main.yml/badge.svg)
-https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"
+![Test](https://github.com/ILilliasI/2023_similar_dev_search_sukhova/actions/workflows/test.yml/badge.svg)
+![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)
 Проект "Поиск похожих разработчиков"
 ==========================================
 Описание        
