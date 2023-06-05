@@ -49,17 +49,20 @@ class RepoExtractorTestCase(unittest.TestCase):
         self.assertEqual(len(programmers_info), self.DEVELOPERS_NUMBER)
         added_lines_cnt = sum(
             dev_info[test_repo_name]["changed_files"][filename]["added"]
-            for dev_info in programmers_info.values() for filename in dev_info[test_repo_name]["changed_files"].keys()
+            for dev_info in programmers_info.values()
+            for filename in dev_info[test_repo_name]["changed_files"].keys()
         )
         self.assertEqual(added_lines_cnt, self.DEVELOPERS_ADDED_LINES)
         added_lines_cnt = sum(
             dev_info[test_repo_name]["changed_files"][filename]["deleted"]
-            for dev_info in programmers_info.values() for filename in dev_info[test_repo_name]["changed_files"].keys()
+            for dev_info in programmers_info.values()
+            for filename in dev_info[test_repo_name]["changed_files"].keys()
         )
         self.assertEqual(added_lines_cnt, self.DEVELOPERS_DELETED_LINES)
         modified_files_cnt = len(
             set(
-                filename for dev_info in programmers_info.values()
+                filename
+                for dev_info in programmers_info.values()
                 for filename in dev_info[test_repo_name]["changed_files"].keys()
             )
         )
