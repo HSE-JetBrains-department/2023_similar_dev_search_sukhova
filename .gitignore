@@ -130,6 +130,9 @@ ENV/
 env.bak/
 venv.bak/
 
+# Enry lib
+sim_dev_search/go-enry
+
 # Spyder project settings
 .spyderproject
 .spyproject

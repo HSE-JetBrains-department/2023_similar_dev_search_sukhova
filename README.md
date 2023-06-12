@@ -16,6 +16,19 @@
 5. Filter
 6. Parse
 7. Similar dev search
+    // "C": "https://github.com/tree-sitter/tree-sitter-c",
+    // "C++": "https://github.com/tree-sitter/tree-sitter-cpp",
+    // "C#": "https://github.com/tree-sitter/tree-sitter-c-sharp",
+    // "Go": "https://github.com/tree-sitter/tree-sitter-go",
+    // "HTML": "https://github.com/tree-sitter/tree-sitter-html",
+    // "Java": "https://github.com/tree-sitter/tree-sitter-java",
+    // "JavaScript": "https://github.com/tree-sitter/tree-sitter-javascript",
+    // "Kotlin": "https://github.com/mburyakov/tree-sitter-kotlin",
+    // "PHP": "https://github.com/tree-sitter/tree-sitter-php",
+    "Python": "https://github.com/tree-sitter/tree-sitter-python"
+    // "Ruby": "https://github.com/tree-sitter/tree-sitter-ruby",
+    // "Rust": "https://github.com/tree-sitter/tree-sitter-rust",
+    // "Swift": "https://github.com/tree-sitter/tree-sitter-swift",
 
 Запуск и использование
 ------------------------------------------

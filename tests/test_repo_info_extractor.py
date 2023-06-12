@@ -7,7 +7,7 @@ from unittest import mock
 from pydriller import ModifiedFile, Repository
 from pydriller.domain.commit import Commit
 
-from sim_dev_search.utils.repos_info_extractor import ReposInfoExtractor
+from sim_dev_search.processors.repos_info_extractor import ReposInfoExtractor
 
 
 @mock.patch.object(Repository, "traverse_commits")
