@@ -24,10 +24,14 @@
 python -m  sim_dev_search.main top -r <repo_url1> -r <repo_url2> -f <out_file_path> --api-token <github_token>
 
 python -m  sim_dev_search.main prog -r <repo_url1> -r <repo_url2> -f <out_file_path>
+
+python -m  sim_dev_search.main sim_dev -u <user_email> --in-file-path <in_file_path> --out-file-path <out_file_path>
+
+python -m unittest discover tests
 ```
 ### Docker
 ```
 docker build -t sim_dev .
 
-docker run -it --name SimDev --rm  sim_dev prog -r <repo_url1> -r <repo_url2> -f <out_file_path>
+docker run -it --name SimDev --rm  sim_dev
 ```

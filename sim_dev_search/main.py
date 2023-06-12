@@ -26,7 +26,7 @@ def cli():
     help="Provide paths to Github repositories.",
 )
 @click.option(
-    "-p",
+    "-f",
     "--file-path",
     default=str(Path(__file__).absolute().parent.parent / "results" / "programmers_commits.json"),
     type=click.Path(file_okay=True, dir_okay=False),

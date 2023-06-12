@@ -63,5 +63,5 @@ class SimilarDevelopersFinder:
         res_similarity = list(zip(developers_df[developers_df.index != user_email].index, dev_similarity))
         res_similarity_sorted = sorted(res_similarity, key=lambda res: res[1], reverse=True)
 
-        return dict(res_similarity_sorted[:self.SIMILAR_DEVELOPERS_NUMBER])
+        return dict(res_similarity_sorted[: self.SIMILAR_DEVELOPERS_NUMBER])
 
