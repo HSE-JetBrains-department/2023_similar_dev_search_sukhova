@@ -122,10 +122,11 @@ def find_similar_developers(user_email: str, in_file_path: str, out_file_path: s
     if out_file_path:
         out_file_path_absolute = Path(in_file_path).absolute()
     else:
-        out_file_path_absolute = \
-            str(Path(__file__).absolute().parent.parent / "results" / f"similar_developers_for_{user_email}.json")
+        out_file_path_absolute = str(
+            Path(__file__).absolute().parent.parent / "results" / f"similar_developers_for_{user_email}.json"
+        )
     with open(out_file_path_absolute, "w", encoding="utf-8") as file_out:
-         json.dump(sim_dev_info, file_out, indent=4)
+        json.dump(sim_dev_info, file_out, indent=4)
     print(f"Similar developers information has been saved to {out_file_path_absolute}.")
 
 

@@ -30,9 +30,9 @@ class TreeSitterExtractor:
         if not self.BUILD_DIR.exists():
             self.BUILD_DIR.mkdir()
         for language in tqdm(
-                self.language_grammar_repos,
-                total=len(self.language_grammar_repos),
-                desc=f"Cloning grammar repositories for languages...",
+            self.language_grammar_repos,
+            total=len(self.language_grammar_repos),
+            desc=f"Cloning grammar repositories for languages...",
         ):
             repo_url = self.language_grammar_repos[language]
             repo_path = self._get_repo_path(repo_url)
@@ -111,6 +111,6 @@ class TreeSitterExtractor:
         captures = query.captures(parser.parse(source_code).root_node)
         for capture in captures:
             node = capture[0]
-            identifier = source_code[node.start_byte: node.end_byte].decode()
+            identifier = source_code[node.start_byte:node.end_byte].decode()
             identifiers[identifier] += 1
         return identifiers

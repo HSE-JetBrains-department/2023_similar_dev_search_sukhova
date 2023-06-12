@@ -56,8 +56,9 @@ class ReposInfoExtractor:
         self._programmers_info[author_id][repo_name][self.FILES_FIELD][file.filename]["deleted"] += file.deleted_lines
         if file.content:
             file_language = extract_language(file.filename, file_content=file.content)
-            self._programmers_info[author_id][repo_name][self.VARIABLES_FIELD] = \
-                self._ts_extractor.extract_with_tree_sitter(language=file_language, source_code=file.content)
+            self._programmers_info[author_id][repo_name][
+                self.VARIABLES_FIELD
+            ] = self._ts_extractor.extract_with_tree_sitter(language=file_language, source_code=file.content)
             self._programmers_info[author_id][repo_name].setdefault(self.LANGUAGE_FIELD, Counter())[file_language] += 1
 
     @property

@@ -37,8 +37,7 @@ class SimilarDevelopersFinder:
         del developers_info_for_df
 
         dev_similarity = cosine_similarity(
-            developers_df[developers_df.index != user_email],
-            developers_df[developers_df.index == user_email]
+            developers_df[developers_df.index != user_email], developers_df[developers_df.index == user_email]
         ).reshape(-1)
         res_similarity = list(zip(developers_df[developers_df.index != user_email].index, dev_similarity))
         return sorted(res_similarity, key=lambda res: res[1], reverse=True)
