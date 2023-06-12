@@ -1,146 +1,17 @@
-[
-    [
-        "a.serban@cs.ru.nl",
-        0.9863417174125052
-    ],
-    [
-        "christian.gut@usp.br",
-        0.8429089438557651
-    ],
-    [
-        "stefano.dallapalma0@gmail.com",
-        0.6434615328709197
-    ],
-    [
-        "dspadini@fb.com",
-        0.6221052365821571
-    ],
-    [
-        "arie.vandeursen@tudelft.nl",
-        0.5757465422345422
-    ],
-    [
-        "dspadini@meta.com",
-        0.5061558518740809
-    ],
-    [
-        "kanghongjin@gmail.com",
-        0.23262628173321162
-    ],
-    [
-        "ropf@itu.dk",
-        0.178320274913333
-    ],
-    [
-        "grzegorz.lato@gmail.com",
-        0.12470587409658204
-    ],
-    [
-        "gliptak@gmail.com",
-        0.11017363411345964
-    ],
-    [
-        "lgtm-migrator@users.noreply.github.com",
-        0.11017363411345964
-    ],
-    [
-        "ha.t@cybersierra.co",
-        0.10574593836813101
-    ],
-    [
-        "9467666+k----n@users.noreply.github.com",
-        0.10196921455181902
-    ],
-    [
-        "Lenny@codematic.com",
-        0.10196921455181902
-    ],
-    [
-        "dtuchyna@redhat.com",
-        0.10196921455181902
-    ],
-    [
-        "f.kalvelage@posteo.de",
-        0.10196921455181902
-    ],
-    [
-        "felipe.ebert@gmail.com",
-        0.10196921455181902
-    ],
-    [
-        "k----n@users.noreply.github.com",
-        0.10196921455181902
-    ],
-    [
-        "50012463+gremat@users.noreply.github.com",
-        0.08887779295118824
-    ],
-    [
-        "totoroq@outlook.com",
-        0.0877553297876488
-    ],
-    [
-        "j.goodwin049@gmail.com",
-        0.06730578854105104
-    ],
-    [
-        "32761621+yusufsn@users.noreply.github.com",
-        0.058602996868861515
-    ],
-    [
-        "shantanu.oak@gmail.com",
-        0.058602996868861515
-    ],
-    [
-        "mcastelluccio@mozilla.com",
-        0.04521012343870484
-    ],
-    [
-        "12f23eddde@gmail.com",
-        0.03588923222366137
-    ],
-    [
-        "luca.pascarella@gmail.com",
-        0.031266156312208165
-    ],
-    [
-        "liuchao890@126.com",
-        0.028077106752475187
-    ],
-    [
-        "ledenelintelli@gmail.com",
-        0.027299852434819544
-    ],
-    [
-        "cgote@ethz.ch",
-        0.025911314769810873
-    ],
-    [
-        "an.dodet@gmail.com",
-        0.02429393824764903
-    ],
-    [
-        "stefano.dallapalmapalma0@gmail.com",
-        0.021803947101500822
-    ],
-    [
-        "evan.casey@allstacks.com",
-        0.019042476960088085
-    ],
-    [
-        "32632523+NullConvergence@users.noreply.github.com",
-        0.01819594641972786
-    ],
-    [
-        "th.trummer@gmail.com",
-        0.014958943011038365
-    ],
-    [
-        "ondrej.tethal@oracle.com",
-        0.008930537679696234
-    ],
-    [
-        "stephposs@gmail.com",
-        0.004886245582447744
-    ]
-]
+{
+    "a.serban@cs.ru.nl": 0.9863417174125052,
+    "christian.gut@usp.br": 0.8429089438557651,
+    "stefano.dallapalma0@gmail.com": 0.6434615328709197,
+    "dspadini@fb.com": 0.6221052365821571,
+    "arie.vandeursen@tudelft.nl": 0.5757465422345422,
+    "dspadini@meta.com": 0.5061558518740809,
+    "kanghongjin@gmail.com": 0.23262628173321162,
+    "ropf@itu.dk": 0.178320274913333,
+    "grzegorz.lato@gmail.com": 0.12470587409658204,
+    "gliptak@gmail.com": 0.11017363411345964,
+    "lgtm-migrator@users.noreply.github.com": 0.11017363411345964,
+    "ha.t@cybersierra.co": 0.10574593836813101,
+    "9467666+k----n@users.noreply.github.com": 0.10196921455181902,
+    "Lenny@codematic.com": 0.10196921455181902,
+    "dtuchyna@redhat.com": 0.10196921455181902
+}

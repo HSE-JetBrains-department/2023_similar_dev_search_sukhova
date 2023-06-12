@@ -10,6 +10,9 @@ from tree_sitter import Language, Parser
 
 
 class TreeSitterExtractor:
+    """
+    Class that parses source code and extracts identifiers information.
+    """
 
     BUILD_DIR = Path(__file__).resolve().parent / "build"
     BUILD_LANGUAGES_PATH = BUILD_DIR / "my-languages.so"
@@ -111,6 +114,6 @@ class TreeSitterExtractor:
         captures = query.captures(parser.parse(source_code).root_node)
         for capture in captures:
             node = capture[0]
-            identifier = source_code[node.start_byte:node.end_byte].decode()
+            identifier = source_code[node.start_byte : node.end_byte].decode()
             identifiers[identifier] += 1
         return identifiers
