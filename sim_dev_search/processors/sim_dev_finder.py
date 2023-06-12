@@ -1,5 +1,5 @@
 from collections import Counter, defaultdict
-from typing import Any, Dict, List
+from typing import Any, Dict
 
 import pandas as pd
 from sklearn.feature_extraction import DictVectorizer
