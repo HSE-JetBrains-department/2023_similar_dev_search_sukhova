@@ -64,4 +64,3 @@ class SimilarDevelopersFinder:
         res_similarity_sorted = sorted(res_similarity, key=lambda res: res[1], reverse=True)
 
         return dict(res_similarity_sorted[: self.SIMILAR_DEVELOPERS_NUMBER])
-
