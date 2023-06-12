@@ -5,9 +5,9 @@ from typing import List, Optional
 import click
 import json
 
+from sim_dev_search.processors.repos_info_extractor import ReposInfoExtractor
 from sim_dev_search.processors.sim_dev_finder import SimilarDevelopersFinder
 from sim_dev_search.processors.stargazers_top_extractor import StargazersTopExtractor
-from sim_dev_search.processors.repos_info_extractor import ReposInfoExtractor
 
 
 @click.group()
