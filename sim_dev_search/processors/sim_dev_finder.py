@@ -113,11 +113,10 @@ class SimilarDevelopersFinder:
             developers_df[developers_df.index != user_email], developers_df[developers_df.index == user_email]
         ).reshape(-1)
         res_similarity = list(zip(developers_df[developers_df.index != user_email].index, dev_similarity))
-        res_similarity_sorted = sorted(res_similarity, key=lambda res: res[1], reverse=True)[: similar_developers_number]
+        res_similarity_sorted = sorted(res_similarity, key=lambda res: res[1], reverse=True)[:similar_developers_number]
         res_similarity_info = self._get_similar_developers_info(
             similarity_info=res_similarity_sorted,
             developers_info=developers_info,
             parameters_top_size=parameters_top_size,
         )
-
         return res_similarity_info

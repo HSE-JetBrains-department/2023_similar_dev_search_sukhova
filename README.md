@@ -29,9 +29,3 @@ python -m  sim_dev_search.main sim_dev -u <user_email> --in-file-path <in_file_p
 
 python -m unittest discover tests
 ```
-### Docker
-```
-docker build -t sim_dev .
-
-docker run -it --name SimDev --rm  sim_dev
-```
