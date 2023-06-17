@@ -17,12 +17,15 @@ class TreeSitterExtractor:
     BUILD_DIR = Path(__file__).resolve().parent / "build"
     BUILD_LANGUAGES_PATH = BUILD_DIR / "my-languages.so"
     CONFIG_PATH = Path(__file__).resolve().parent / "language_grammar_config.json"
+    IDENTIFIERS_QUERY_CONFIG_PATH = Path(__file__).resolve().parent / "identifiers_query_config.json"
 
-    IDENTIFIERS_QUERY = "(identifier) @variable"
+    DEFAULT_QUERY = "default"
 
     def __init__(self):
         with open(self.CONFIG_PATH, "r", encoding="utf-8") as config_file:
-            self.language_grammar_repos = json.load(config_file)
+            self._language_grammar_repos = json.load(config_file)
+        with open(self.IDENTIFIERS_QUERY_CONFIG_PATH, "r", encoding="utf-8") as config_file:
+            self._identifiers_query = json.load(config_file)
         self.clone_grammar_repos()
         self.build_library()
 
@@ -33,11 +36,11 @@ class TreeSitterExtractor:
         if not self.BUILD_DIR.exists():
             self.BUILD_DIR.mkdir()
         for language in tqdm(
-            self.language_grammar_repos,
-            total=len(self.language_grammar_repos),
+            self._language_grammar_repos,
+            total=len(self._language_grammar_repos),
             desc=f"Cloning grammar repositories for languages...",
         ):
-            repo_url = self.language_grammar_repos[language]
+            repo_url = self._language_grammar_repos[language]
             repo_path = self._get_repo_path(repo_url)
             if repo_path.exists():
                 continue
@@ -57,8 +60,8 @@ class TreeSitterExtractor:
         """
         grammar_repos_paths: List[str] = []
 
-        for language in self.language_grammar_repos:
-            repo_url = self.language_grammar_repos[language]
+        for language in self._language_grammar_repos:
+            repo_url = self._language_grammar_repos[language]
             repo_path = self._get_repo_path(repo_url)
             grammar_repos_paths.append(str(repo_path))
         Language.build_library(str(self.BUILD_LANGUAGES_PATH), grammar_repos_paths)
@@ -79,7 +82,7 @@ class TreeSitterExtractor:
         :param language: Programming language.
         :return: Language from tree-sitter.
         """
-        repo_path = str(urlparse(self.language_grammar_repos[language]).path)
+        repo_path = str(urlparse(self._language_grammar_repos[language]).path)
         return repo_path.split("-")[-1]
 
     def _get_language(self, language: str) -> Language:
@@ -97,7 +100,7 @@ class TreeSitterExtractor:
         :param language: Programming language.
         :return: Can parse given language.
         """
-        return language in self.language_grammar_repos
+        return language in self._language_grammar_repos
 
     def extract_with_tree_sitter(self, language: str, source_code: bytes) -> Counter:
         """
@@ -110,7 +113,8 @@ class TreeSitterExtractor:
         if not self.can_parse(language):
             return identifiers
         parser = self._get_parser(language)
-        query = self._get_language(language).query(self.IDENTIFIERS_QUERY)
+        lang_query = self._identifiers_query.get(language) or self._identifiers_query[self.DEFAULT_QUERY]
+        query = self._get_language(language).query(lang_query)
         captures = query.captures(parser.parse(source_code).root_node)
         for capture in captures:
             node = capture[0]
