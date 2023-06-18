@@ -17,3 +17,17 @@
 6. Parse
 7. Similar dev search
 
+Запуск и использование
+------------------------------------------
+### В терминале 
+```
+python -m  sim_dev_search.main top -r <repo_url1> -r <repo_url2> -f <out_file_path> --api-token <github_token>
+
+python -m  sim_dev_search.main prog -r <repo_url1> -r <repo_url2> -f <out_file_path>
+```
+### Docker
+```
+docker build -t sim_dev .
+
+docker run -it --name SimDev --rm  sim_dev prog -r <repo_url1> -r <repo_url2> -f <out_file_path>
+```
