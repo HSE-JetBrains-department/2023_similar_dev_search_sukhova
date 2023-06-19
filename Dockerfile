@@ -23,4 +23,4 @@ RUN pip install -r requirements.txt
 COPY . .
 
 ENV PYTHONPATH="$PYTHONPATH:/usr/local/app"
-ENTRYPOINT ["python", "-u", "sim_dev_search/main.py"]
+ENTRYPOINT ["python", "-u", "sim_dev_search/__main__.py"]
