@@ -4,7 +4,8 @@ from typing import Dict, List
 from pydriller import ModifiedFile, Repository
 from tqdm import tqdm
 
-from .language_utils import extract_language
+from sim_dev_search.processors.tree_sitter.tree_sitter_extractor import TreeSitterExtractor
+from ..utils.language_utils import extract_language
 
 
 class ReposInfoExtractor:
@@ -13,6 +14,7 @@ class ReposInfoExtractor:
     """
 
     LANGUAGE_FIELD = "languages"
+    VARIABLES_FIELD = "variables"
     FILES_FIELD = "changed_files"
 
     def __init__(self, repos_list: List[str]):
@@ -22,6 +24,7 @@ class ReposInfoExtractor:
         """
         self.repos_list = repos_list
         self._programmers_info = defaultdict(lambda: defaultdict(lambda: defaultdict(dict)))
+        self._ts_extractor = TreeSitterExtractor()
 
     def _extract_repo_info(self, path_to_repo: str) -> None:
         """
@@ -53,6 +56,9 @@ class ReposInfoExtractor:
         self._programmers_info[author_id][repo_name][self.FILES_FIELD][file.filename]["deleted"] += file.deleted_lines
         if file.content:
             file_language = extract_language(file.filename, file_content=file.content)
+            self._programmers_info[author_id][repo_name][
+                self.VARIABLES_FIELD
+            ] = self._ts_extractor.extract_with_tree_sitter(language=file_language, source_code=file.content)
             self._programmers_info[author_id][repo_name].setdefault(self.LANGUAGE_FIELD, Counter())[file_language] += 1
 
     @property

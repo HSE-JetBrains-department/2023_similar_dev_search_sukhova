@@ -1,0 +1,250 @@
+{
+    "a.serban@cs.ru.nl": {
+        "similarity_score": 0.9863417174125052,
+        "top_languages": {
+            "Python": 16,
+            "binary": 1
+        },
+        "top_identifiers": {}
+    },
+    "christian.gut@usp.br": {
+        "similarity_score": 0.8429089438557651,
+        "top_languages": {
+            "Python": 3,
+            "binary": 2
+        },
+        "top_identifiers": {}
+    },
+    "stefano.dallapalma0@gmail.com": {
+        "similarity_score": 0.6434615328709197,
+        "top_languages": {
+            "Python": 194,
+            "reStructuredText": 7,
+            "Text": 2,
+            "Markdown": 1
+        },
+        "top_identifiers": {
+            "self": 209,
+            "property": 37,
+            "diff": 27,
+            "int": 23,
+            "_c_object": 22,
+            "str": 19,
+            "line": 18,
+            "func": 17,
+            "dmm_prop": 14,
+            "DMMProperty": 12,
+            "Method": 12,
+            "Optional": 12,
+            "List": 11,
+            "other": 11,
+            "name": 10
+        }
+    },
+    "dspadini@fb.com": {
+        "similarity_score": 0.6221052365821571,
+        "top_languages": {
+            "Python": 55,
+            "reStructuredText": 4,
+            "YAML": 2,
+            "Text": 1
+        },
+        "top_identifiers": {
+            "self": 46,
+            "str": 24,
+            "_conf": 19,
+            "Optional": 15,
+            "git": 12,
+            "commit": 10,
+            "List": 9,
+            "get": 9,
+            "bool": 8,
+            "path_repo": 8,
+            "repo": 7,
+            "url": 7,
+            "Commit": 6,
+            "local_path_repo": 6,
+            "logger": 6
+        }
+    },
+    "arie.vandeursen@tudelft.nl": {
+        "similarity_score": 0.5757465422345422,
+        "top_languages": {
+            "Python": 27,
+            "reStructuredText": 6,
+            "INI": 1,
+            "binary": 1
+        },
+        "top_identifiers": {
+            "commit": 22,
+            "repo": 19,
+            "GitRepository": 11,
+            "msg": 10,
+            "commit_by_msg": 9,
+            "dmm": 6,
+            "pytest": 6,
+            "DMMProperty": 5,
+            "UNIT_SIZE": 4,
+            "_delta_risk_profile": 4,
+            "float": 4,
+            "mark": 4,
+            "mod": 4,
+            "modifications": 4,
+            "parametrize": 4
+        }
+    },
+    "dspadini@meta.com": {
+        "similarity_score": 0.5061558518740809,
+        "top_languages": {
+            "Python": 51,
+            "Text": 3,
+            "YAML": 3
+        },
+        "top_identifiers": {
+            "self": 67,
+            "path": 24,
+            "str": 23,
+            "commit": 16,
+            "repo": 15,
+            "Commit": 12,
+            "line": 10,
+            "_conf": 9,
+            "git": 9,
+            "mod": 9,
+            "_repo": 8,
+            "commits": 7,
+            "hashes_to_ignore_path": 7,
+            "startswith": 7,
+            "logger": 6
+        }
+    },
+    "kanghongjin@gmail.com": {
+        "similarity_score": 0.23262628173321162,
+        "top_languages": {
+            "Python": 8,
+            "reStructuredText": 1
+        },
+        "top_identifiers": {
+            "RepositoryMining": 14,
+            "list": 13,
+            "traverse_commits": 13,
+            "path_to_repo": 12,
+            "len": 9,
+            "datetime": 8,
+            "dt2": 8,
+            "urls": 8,
+            "to": 6,
+            "pytest": 5,
+            "Exception": 4,
+            "dt": 4,
+            "raises": 4,
+            "commit_hashes": 3,
+            "commits": 3
+        }
+    },
+    "ropf@itu.dk": {
+        "similarity_score": 0.178320274913333,
+        "top_languages": {
+            "Python": 12
+        },
+        "top_identifiers": {
+            "self": 44,
+            "str": 24,
+            "_conf": 18,
+            "git": 12,
+            "commit": 10,
+            "List": 9,
+            "get": 8,
+            "path_repo": 8,
+            "repo": 8,
+            "bool": 7,
+            "url": 7,
+            "Commit": 6,
+            "local_path_repo": 6,
+            "logger": 6,
+            "repo_folder": 6
+        }
+    },
+    "grzegorz.lato@gmail.com": {
+        "similarity_score": 0.12470587409658204,
+        "top_languages": {
+            "Python": 4,
+            "reStructuredText": 1
+        },
+        "top_identifiers": {
+            "metric": 14,
+            "code_churns": 12,
+            "filepath": 12,
+            "Path": 9,
+            "path_to_repo": 9,
+            "str": 8,
+            "CodeChurn": 6,
+            "from_commit": 6,
+            "to_commit": 6,
+            "count": 5,
+            "actual_avg": 4,
+            "actual_count": 4,
+            "actual_max": 4,
+            "datetime": 4,
+            "expected_avg": 4
+        }
+    },
+    "gliptak@gmail.com": {
+        "similarity_score": 0.11017363411345964,
+        "top_languages": {
+            "YAML": 1
+        },
+        "top_identifiers": {}
+    },
+    "lgtm-migrator@users.noreply.github.com": {
+        "similarity_score": 0.11017363411345964,
+        "top_languages": {
+            "YAML": 1
+        },
+        "top_identifiers": {}
+    },
+    "ha.t@cybersierra.co": {
+        "similarity_score": 0.10574593836813101,
+        "top_languages": {
+            "Python": 9
+        },
+        "top_identifiers": {
+            "diff": 38,
+            "Repository": 28,
+            "commit": 28,
+            "len": 25,
+            "traverse_commits": 25,
+            "list": 22,
+            "pytest": 21,
+            "expected": 14,
+            "modified_files": 12,
+            "mark": 11,
+            "path_to_repo": 11,
+            "indirect": 10,
+            "parametrize": 10,
+            "single": 10,
+            "path": 9
+        }
+    },
+    "9467666+k----n@users.noreply.github.com": {
+        "similarity_score": 0.10196921455181902,
+        "top_languages": {
+            "reStructuredText": 1
+        },
+        "top_identifiers": {}
+    },
+    "Lenny@codematic.com": {
+        "similarity_score": 0.10196921455181902,
+        "top_languages": {
+            "reStructuredText": 1
+        },
+        "top_identifiers": {}
+    },
+    "dtuchyna@redhat.com": {
+        "similarity_score": 0.10196921455181902,
+        "top_languages": {
+            "reStructuredText": 1
+        },
+        "top_identifiers": {}
+    }
+}

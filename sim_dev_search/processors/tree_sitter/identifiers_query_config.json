@@ -1,0 +1,13 @@
+{
+  "JavaScript": "[(identifier) @variable (property_identifier) @variable (shorthand_property_identifier) @variable]",
+  "Python": "(identifier) @variable",
+  "Java": "[(identifier) @variable (type_identifier) @variable]",
+  "Go": "[(identifier) @variable (type_identifier) @variable (field_identifier) @variable]",
+  "C++": "[(identifier) @variable (type_identifier) @variable (field_identifier) @variable (namespace_identifier) @variable]",
+  "Ruby": "(identifier) @variable",
+  "PHP": "(name) @variable",
+  "C#": "(identifier) @variable",
+  "C": "[(identifier) @variable (field_identifier) @variable (type_identifier) @variable]",
+  "Rust": "[(identifier) @variable (field_identifier) @variable (type_identifier) @variable]",
+  "default": "(identifier) @variable"
+}
